@@ -1,5 +1,5 @@
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 header,
@@ -54,7 +54,7 @@ footer {
 }
 
 h1 {
-  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 1.75rem;
   align-self: center;
   width: 100%;
