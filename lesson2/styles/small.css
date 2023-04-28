@@ -13,7 +13,7 @@ main {
   margin: 0px auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 20px;
+  grid-gap: 30px;
   justify-items: center;
 }
 
@@ -29,7 +29,7 @@ section {
   border: 1px solid;
   border-radius: 5px;
   border-color: #c8c8c8;
-  width: 420px
+  width: 380px;
 }
 
 section > div {
@@ -38,10 +38,15 @@ section > div {
 
 section > div > span {
   display: block;
+  font-weight: bold;
 }
 
 section > div > * {
-  font-size: 1.0em;
+  font-size: 0.9em;
+}
+
+img  {
+  width: 100%;
 }
 
 footer {
