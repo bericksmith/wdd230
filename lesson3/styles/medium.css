@@ -1,0 +1,14 @@
+@media screen and (min-width: 37.5em) {
+  .navbar {
+    flex-direction: row;
+    height: 70px;
+  }
+
+  .main-nav {
+    flex-direction: row;
+  }
+
+  .washington {
+    display: none;
+  }
+}
