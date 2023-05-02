@@ -94,7 +94,7 @@ p.colored {
 .grid-container {
   display: grid;
   gap: 30px 30px;
-  grid-auto-columns: 10px;
+  grid-auto-columns: auto;
 }
 
 .item1 {
