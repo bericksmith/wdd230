@@ -52,7 +52,7 @@ hr {
   background: var(--accent1-color);
 }
 header {
-  padding: 1em;
+  padding: .05em;
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--primary-color);
