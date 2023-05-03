@@ -222,10 +222,9 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
-.wireframe {
-  display: inline-block;
-  width:45%;
-}
-.wf-images {
 
+.wireframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
