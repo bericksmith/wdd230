@@ -217,6 +217,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  object-fit: cover;
 }
 .sitemap {
   display: block;
