@@ -117,7 +117,7 @@ p.colored {
   padding: 20px;
   grid-column: 3/4;
   background-color: #bc6c25;
-  color: var(--headline-color-on-color);
+  color: var(--headline-color-on-white);
 }
 .item4 {
   padding: 20px;
