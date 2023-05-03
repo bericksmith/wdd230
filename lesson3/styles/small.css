@@ -8,13 +8,13 @@
   --paragraph-font: Arial, Helvetica, sans-serif;
 
   --headline-color-on-white: #000; /* headlines on a white background */
-  --headline-color-on-color: #fefae0; /* headlines on a colored background */
+  --headline-color-on-color: #fff; /* headlines on a colored background */
   --paragraph-color-on-white: #000; /* paragraph text on a white background */
-  --paragraph-color-on-color: #fefae0; /* paragraph text on a colored background */
+  --paragraph-color-on-color: #fff; /* paragraph text on a colored background */
   --paragraph-background-color: #283618;
   --nav-link-color: #283618;
   --nav-background-color: #606c38;
-  --nav-hover-link-color: #fefae0;
+  --nav-hover-link-color: #fff;
   --nav-hover-background-color: #bc6c25;
 }
 
