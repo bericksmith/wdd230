@@ -1,16 +1,13 @@
-@media screen and (min-width: 70.0em) {
-
-    .navbar {
-        flex-direction: row;
-        height: 70px;
-      }
-      .main-nav {
-        flex-direction: row;
-      }
-      .washington {
-        display: inline-block;
-        margin-top: 0px;
-      }
-    }
-    
-  
+@media screen and (min-width: 70em) {
+  .navbar {
+    flex-direction: row;
+    height: 70px;
+  }
+  .main-nav {
+    flex-direction: row;
+  }
+  .washington {
+    display: inline-block;
+    margin-top: 0px;
+  }
+}
