@@ -1,8 +1,8 @@
-@media screen and (min-width: 70em) {
-  .navbar {
-    flex-direction: row;
-    height: 70px;
+@media screen and (min-width: 900px) {
+  .main{
+    grid-template-columns: 1fr 1fr 1fr;
   }
+
   .main-nav {
     flex-direction: row;
   }
