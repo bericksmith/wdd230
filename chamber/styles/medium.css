@@ -1,6 +1,9 @@
 @media (min-width: 40em) {
 	
-	
+	h1 {
+		font-size: 1.3rem;
+	}
+
 	aside {
 		display: flex;
 		flex-direction: row;
@@ -119,6 +122,8 @@
     .name-footer p {
         text-align: left;
     }
-
+	.sociallogo {
+		width: 50px;
+	}
 
 }

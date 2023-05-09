@@ -86,7 +86,7 @@ footer {
 }
 
 h1 {
-	font-size: 1.3rem;
+	font-size: 1.1rem;
     margin: 0;
 }
 
@@ -252,4 +252,8 @@ aside {
 .contact a {
     text-decoration: none;
     font-size: 1.3rem;
+}
+
+.sociallogo {
+    width: 30px;
 }
