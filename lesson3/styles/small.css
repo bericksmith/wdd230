@@ -38,9 +38,6 @@ h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
-h2 {
-  text-align: center;
-}
 
 main {
   margin: 0px 25px;
