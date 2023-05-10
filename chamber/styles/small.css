@@ -32,6 +32,11 @@ h1, h2, h3, h4 {
     font-family: var(--heading-font);
 }
 
+.logo {
+    width: 100px;
+    height: 65px
+}
+
 header {
 	background-color: var(--primary-color);
     color: var(--headline-color-on-color);
