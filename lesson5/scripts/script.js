@@ -1,42 +1,28 @@
-try {
-  let options = {
-    year: "numeric",
-  };
-  document.querySelector("#copyright").textContent =
-    new Date().toLocaleDateString("en-US", options);
-} catch (e) {
-  alert("Error with copyright year.");
+const list = document.querySelector('ul');
+const input = document.querySelector('input');
+const button = document.querySelector('button');
+
+button.onclick = function() {
+  let myItem = input.value;
+  input.value = '';
+
+  const listItem = document.createElement('li');
+  const listText = document.createElement('span');
+  const listBtn = document.createElement('button');
+
+  listItem.appendChild(listText);
+  listText.textContent = myItem;
+  listItem.appendChild(listBtn);
+  listBtn.textContent = '❌';
+  list.appendChild(listItem);
+
+  listBtn.onclick = function(e) {
+    list.removeChild(listItem);
+  }
+
+  input.focus();
 }
 
-try {
-  document.getElementById("dateModified").textContent = document.lastModified;
-} catch (e) {
-  alert("Error finding last modified date.");
-}
-
-try {
-  let options = {
-		weekday: "long",
-		day: "numeric",
-		month: "long",
-		year: "numeric"
-  };
-  document.querySelector("#todayHeading").textContent =
-    new Date().toLocaleDateString("en-UK", options);
-} catch (e) {
-  alert("Error with today's date.");
-}
-
-
-
-function toggleMenu() {
-  document.getElementById("primaryNav").classList.toggle("open");
-  document.getElementById("hamburgerBtn").classList.toggle("open");
-}  
-
-const x = document.getElementById("hamburgerBtn");
-
-x.onclick = toggleMenu;
 
 
 
