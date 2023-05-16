@@ -17,7 +17,7 @@ button.onclick = function() {
   list.appendChild(listItem);
 
   listBtn.onclick = function(e) {
-    list.removeChild(listItem);
+  list.removeChild(listItem);
   }
 
   input.focus();
