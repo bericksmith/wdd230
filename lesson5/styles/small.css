@@ -208,6 +208,9 @@ header div nav {
     height: 100%;
     width: 100%;
 }
+.weather-img {
+    float: left;
+}
 
 aside {
     background-color: rgba(96,108,56,.40);
