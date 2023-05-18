@@ -37,6 +37,13 @@ p {
    font-size: 14px;
 }
 
+.event a {
+  color: #bc6c25; 
+  text-decoration:none; 
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .logo {
     width: 100px;
     height: 65px
@@ -94,6 +101,24 @@ footer {
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
+#chambermeet {
+	max-width: 1200px;
+	margin: 0 auto;
+    text-align: center;
+    height: 40px;
+    background-color: var(--accent2-color);
+    padding: 8px;
+    /*display: none;*/
+}
+
+.close {
+    float:right;
+    padding: 0px;
+    margin: 0px;
+}
+
+
 
 h1 {
 	font-size: 1.1rem;
@@ -232,6 +257,7 @@ aside {
 .contact a{
     font-size: 1rem;
     text-align: center;
+    text-decoration: none;
 }
 .spotlight1, .spotlight2 {
     background-color: #eeeeee;
@@ -262,11 +288,6 @@ aside {
 
 .otherinfo {
     text-align: center;
-}
-
-.contact a {
-    text-decoration: none;
-    font-size: 1.3rem;
 }
 
 .sociallogo {
@@ -332,6 +353,9 @@ aside {
     color:#fff
 }
 
+.join {
+    display: none;
+}
 
 
 
