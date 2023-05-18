@@ -82,7 +82,6 @@ header div #datetime{
     grid-column: 1/4;
 }
 
-
 footer {
     background-color: var(--primary-color);
 	display: flex;
@@ -109,13 +108,14 @@ footer {
     height: 40px;
     background-color: var(--accent2-color);
     padding: 8px;
-    /*display: none;*/
+    display: none;
 }
 
 .close {
     float:right;
     padding: 0px;
     margin: 0px;
+
 }
 
 
@@ -233,6 +233,16 @@ header div nav {
     height: 100%;
     width: 100%;
 }
+
+aside  a {
+    color: #bc6c25; 
+    text-decoration:none; 
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
 .weather-img {
     float: left;
 }
@@ -263,10 +273,12 @@ aside {
     background-color: #eeeeee;
     border: 2px solid #bbbbbb;
     padding: 10px;
+    margin:5px 0px;
 }
 
 .spotlight3 {
     display: none;
+    margin:5px 0px;
 }
 
 .name-footer h2 {
