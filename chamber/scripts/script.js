@@ -27,8 +27,6 @@ try {
   alert("Error with today's date.");
 }
 
-
-
 function toggleMenu() {
   document.getElementById("primaryNav").classList.toggle("open");
   document.getElementById("hamburgerBtn").classList.toggle("open");
@@ -37,10 +35,5 @@ function toggleMenu() {
 const x = document.getElementById("hamburgerBtn");
 
 x.onclick = toggleMenu;
-
-
-
-
-
 
 
