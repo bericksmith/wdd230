@@ -273,20 +273,20 @@ aside {
   text-align: center;
   text-decoration: none;
 }
-.spotlight1,
-.spotlight2 {
+#spotlight1,
+#spotlight2 {
   background-color: #eeeeee;
   border: 2px solid #bbbbbb;
   padding: 10px;
   margin: 5px 0px;
 }
 
-.spotlight3 {
+#spotlight3 {
   display: none;
   margin: 5px 0px;
 }
 
-#spotlight a {
+.spotlight a {
   color: var(--accent1-color);
   text-decoration: none;
   font-weight: bold;
@@ -294,7 +294,7 @@ aside {
   margin: 0px;
 }
 
-#spotlight a:hover {
+.spotlight a:hover {
   color: var(--primary-color);
   text-decoration: none;
   font-weight: bold;
