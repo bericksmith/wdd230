@@ -19,7 +19,7 @@
     </div>
     <header>
         <div class="headname">
-           <img class="logo" src="images/logo-state-sm.png" alt="Vancouver Washington Chamber of Commerce">
+           <img class="logo" src="images/logo-state-sm.webp" alt="Vancouver Washington Chamber of Commerce">
            <h1 class="vanCC-name">Vancouver Washington<br>Chamber of Commerce</h1>
            
         </div>
@@ -49,7 +49,17 @@
     </header>
     <main>
         <div class="hero">
-            <img class="banner" src="images/vancouver-hero.jpg" alt="Vancouver Washington">
+           <picture class="test">
+                <source media="(max-width: 500px)" srcset="images/wdd230-org-small.webp">
+                <source media="(max-width: 800px)" srcset="images/wdd230-org-medium.webp">
+                <source media="(max-width: 1100px)" srcset="images/wdd230-org-large.webp">
+                <img src="images/wdd230-org-large.webp" alt="Week 06">
+            </picture>
+             <!---<picture>
+                <source srcset="images/vancouver-hero.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                <source srcset="images/vancouver-hero.jpg" media="(min-width: 800px)">
+                <img class="banner" src="images/vancouver-hero.jpg" alt="Vancouver Washington">
+            </picture>--->
             <h1 class="hero-banner">Welcome to Vancouver</h1>
             <button class="call-to-action">Join the Chamber</button>
         </div>
@@ -57,17 +67,17 @@
             <img src="images/race.png" alt="Race for the Homeless Event">
             <h4>Race for the Homeless</h4>
             <h5>Shoe Factory</h5>
-            <p>Join us in our 5th annual race to benefit the homeless in our community. It is alwys a wonderful event with lots of community support.<br><a href="#">more info...</a></p>
+            <p>Join us in our 5th annual race to benefit the homeless in our community. It is always a wonderful event with lots of community support.<br><a href="#">more info...</a></p>
         </div>
         <div class="weather"><h3>Vancouver, WA Weather</h3>
             <img src="images/cloudy.png" class="weather-img" alt="Weather Icon">
             <br>
-            <h3>83°F</h3>
+            <h3><span id="tempurature">25</span>°F</h3>
             <h4>Cloudy</h4>
             <br>
             <hr>
-            <p>Wind Speed: </p>
-            <p>Wind Chill: N/A</p>
+            <p>Wind Speed: <span id="speed">10</span> mph</p>
+            <p>Wind Chill: <span id="windchill"></span></p>
         </div>
         <div class="news">
             <h3>📰 News Release</h3>
@@ -103,7 +113,7 @@
     </main>
     <footer>
         <div class="logo-footer">
-            <img class="logo-footer" src="images/logo-state-lg.png" alt="Vancouver Washington Chamber of Commerce Logo">
+            <img class="logo-footer" src="images/logo-state-lg.webp" alt="Vancouver Washington Chamber of Commerce Logo">
                 </div>
                 <div class="name-footer">
                     <h2>Vancouver Washington<br>Chamber of Commerce</h2>
@@ -121,6 +131,7 @@
             </footer>
             <script src="scripts/script.js"></script>
             <script src="scripts/cambermtg.js"></script>
+            <script src="scripts/windchill.js"></script>
             
         </body>
         </html>

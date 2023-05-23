@@ -1,4 +1,4 @@
-@media (min-width: 35em) {
+@media (min-width: 800px) {
 	
 	h1 {
 		font-size: 1.3rem;
@@ -17,6 +17,11 @@
         border: 2px solid #bbbbbb;
         padding: 20px;
 	}
+
+	#chambermeet {
+		height: 40px;
+	  }
+	  
 
 	main div {
 		min-height: 150px;
