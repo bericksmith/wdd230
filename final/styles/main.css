@@ -1,5 +1,6 @@
 body {
-    width: 600px;
+    max-width: 600px;
+    min-width: 350px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     background-color: cornflowerblue;
@@ -41,4 +42,6 @@ input[type=button] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid;
   }
