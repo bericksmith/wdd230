@@ -33,9 +33,9 @@ function displayWeatherData(data) {
 
   // Create the HTML content
   const htmlContent = `
-    <p>Temp: ${temperatureFahrenheit.toFixed(2)}°F</p>
+    <p class="headline">${temperatureFahrenheit.toFixed(2)}°F</p>
     <img class="w-icon" alt="icon" src="https://openweathermap.org/img/wn/${weatherIcon}@2x.png">
-    <p>Description: ${description}</p>
+    <p class="headline">${description}</p>
 
   `;
 
