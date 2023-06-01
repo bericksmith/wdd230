@@ -3,35 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="images/favicon.ico">
 		<meta name="W07 Lazy Loading - Berick Smith" content="Lazy Loading of Images">
-        <title>W07 Lazy Loading</title>
+          <title>Design Principles | Berick Smith WDD230 | W07 Lazy Loading</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
-		<h1>Progressive Loading of Images</h1>
+        <header>
+		    <h1>Lazy Loading of Images</h1>
+        </header>
+        <main>
         <picture>
             <img src='images/placeholder.png' data-src="images/vancouver1.jpg" alt="Vancouver Washington 1" />
         </picture>
-
         <picture>
-            <img src='images/placeholder.png' data-src="images/vancouver2.jpg" alt="Vancouver Washington 2" />
+            <img src='images/placeholder.png' data-src="images/vancouver2.jpg" alt="Vancouver Washington 2">
         </picture>
-
         <picture>
-            <img src='images/placeholder.png' data-src="images/vancouver3.jpg" alt="Vancouver Washington 3" />
+            <img src='images/placeholder.png' data-src="images/vancouver3.jpg" alt="Vancouver Washington 3">
         </picture>
-
-        <picture><img src='images/placeholder.png' data-src="images/vancouver4.jpg" alt="Vancouver Washington 4" />
+        <picture><img src='images/placeholder.png' data-src="images/vancouver4.jpg" alt="Vancouver Washington 4">
         </picture>
-
         <picture>
-            <img src='images/placeholder.png' data-src="images/vancouver5.jpg" alt="Vancouver Washington 5" />
+            <img src='images/placeholder.png' data-src="images/vancouver5.jpg" alt="Vancouver Washington 5">
         </picture>
-
         <picture>
-            <img src='images/placeholder.png' data-src="images/vancouver6.jpg" alt="Vancouver Washington 6" />
+            <img src='images/placeholder.png' data-src="images/vancouver6.jpg" alt="Vancouver Washington 6">
         </picture>
-        <script src="scripts/lazy.js"></script>
+        </main>
+        <footer>
+            &copy; <span id="copyright"></span> | Berick G. Smith | Last Updated: <span id="lastmodified"></span>
+        </footer>
+          <script src="scripts/script.js"></script> 
+          <script src="scripts/lazy.js"></script>   
     </body>
 </html>
