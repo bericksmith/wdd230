@@ -228,7 +228,11 @@ header div nav {
   border: 2px solid #bbbbbb;
   padding: 10px;
   text-align: center;
+  position: relative;
 }
+
+
+/* News Section */
 
 .news {
   text-align: left;
@@ -238,9 +242,45 @@ header div nav {
   text-align: center;
 }
 
+/* Weather Section */
+#weather-info{
+  margin: 0;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:min-content auto;
+}
+.weather-headline{
+    grid-column: 1/3;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 .weather-img {
   float: left;
+  filter: drop-shadow(6px 6px 6px rgb(124, 124, 124));
+  grid-column: 1/2;
 }
+.weather-temp {
+  grid-column: 2/3;
+  font-size: 22px;
+  font-weight: bold;
+  color:#bc6c25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-description {
+  grid-column: 1/3;
+  font-size: 18px;
+  font-weight: bold;
+}
+.weather-seven {
+  grid-column: 1/3;
+}
+
+/* Events Section */
 
 .event a {
   color: var(--primary-color);
@@ -312,9 +352,6 @@ aside {
   grid-template-columns: 1fr 2fr 1fr;
 }
 
-.w-icon {
-  filter: drop-shadow(6px 6px 6px rgb(124, 124, 124));
-}
 
 .discover picture img {
   width: 300px;
