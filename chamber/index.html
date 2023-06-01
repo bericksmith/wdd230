@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vancouver Washington Chamber of Commerce, serving local businesses since 1917.  Office hours Mondy-Friday 9-5pm.">
     <title>Vancouver Washington Chamber of Commerce</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -34,7 +35,8 @@
         <div class="menu">
             <nav>
                 <ul id="primaryNav">
-                    <li class="active"><a href="index.html">Discover</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
                     <li><a href="#">Directory</a></li>
                     <li><a href="#">Join</a></li>
                     <li><a href="#">Contact</a></li> 
@@ -49,17 +51,17 @@
     </header>
     <main>
         <div class="hero">
-           <picture class="test">
+           <!---<picture class="test">
                 <source media="(max-width: 600px)" srcset="images/wdd230-org-small.webp">
                 <source media="(max-width: 960px)" srcset="images/wdd230-org-medium.webp">
                 <source media="(max-width: 1100px)" srcset="images/wdd230-org-large.webp">
-                <img src="images/wdd230-org-large.webp" alt="Week 06">
-            </picture>
-             <!--<picture>
+                <img src="images/wdd230-org-large.webp" alt="Week 06" loading="lazy">
+            </picture>--->
+            <picture>
                 <source srcset="images/vancouver-hero.jpg" media="(min-width: 500px) and (max-width: 799px)">
                 <source srcset="images/vancouver-hero.jpg" media="(min-width: 800px)">
                 <img class="banner" src="images/vancouver-hero.jpg" alt="Vancouver Washington">
-            </picture>-->
+            </picture>
             <h1 class="hero-banner">Welcome to Vancouver</h1>
             <button class="call-to-action">Join the Chamber</button>
         </div>
@@ -69,15 +71,11 @@
             <h5>Shoe Factory</h5>
             <p>Join us in our 5th annual race to benefit the homeless in our community. It is always a wonderful event with lots of community support.<br><a href="#">more info...</a></p>
         </div>
-        <div class="weather"><h3>Vancouver, WA Weather</h3>
-            <img src="images/cloudy.png" class="weather-img" alt="Weather Icon">
+        <div class="weather"><span class="headline">Vancouver, WA Weather</span>
             <br>
-            <h3><span id="tempurature">25</span>°F</h3>
-            <h4>Cloudy</h4>
+            <span id="weather-info"></span>
             <br>
-            <hr>
-            <p>Wind Speed: <span id="speed">10</span> mph</p>
-            <p>Wind Chill: <span id="windchill"></span></p>
+
         </div>
         <div class="news">
             <h3>📰 News Release</h3>
@@ -132,6 +130,7 @@
             <script src="scripts/script.js"></script>
             <script src="scripts/cambermtg.js"></script>
             <script src="scripts/windchill.js"></script>
+            <script src="scripts/weather.js"></script>
             
         </body>
         </html>

@@ -112,7 +112,7 @@ footer {
 
 
 h1 {
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   margin: 0;
 }
 
@@ -129,6 +129,12 @@ a {
   font-size: 2rem;
   color: #fff;
   padding: 0px 5px;
+}
+
+.headline {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0; 
 }
 
 .vanCC-name {
@@ -299,6 +305,27 @@ aside {
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
+}
+
+.discover {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.w-icon {
+  filter: drop-shadow(6px 6px 6px rgb(124, 124, 124));
+}
+
+.discover picture img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 2px 2px 4px #858585;
+  padding: 10px;
+}
+.discover picture img.in {
+  animation: img-come-in 1s;
 }
 
 .name-footer h2 {
