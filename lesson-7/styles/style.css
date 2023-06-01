@@ -27,12 +27,19 @@ picture{
     padding: 10px;
 } 
 
+picture img[data-src] {
+    filter: blur(0.3em);
+}
+
 img {
     padding: 10px;
     background-color: #fff;
     width: 100%;
     box-shadow: 2px 2px 4px #2f2f2f;
-    animation: fade 5s;
+    filter: blur(0em);
+    -webkit-transition: filter 0.75s ease-in-out;
+    -moz-transition: filter 0.75s ease-in-out;
+    transition: filter 0.75s ease-in-out;
 }
 
 
@@ -46,15 +53,7 @@ footer {
     text-align: center;
 }
 
-@keyframes fade {
-    50% {
-        transform: scale(0.9);
-        opacity: 0;
-    }
 
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
 
+
+  
