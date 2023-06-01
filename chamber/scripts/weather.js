@@ -1,8 +1,10 @@
 const apiKey = 'bb06f83ae63888ef53975084692c8460';
+const latitude = 45.6387;
+const longitude = -122.6615
 
 // Function to fetch weather data
 function fetchWeatherData(city) {
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`;
 
   fetch(url)
     .then(response => response.json())
@@ -15,28 +17,24 @@ function fetchWeatherData(city) {
     });
 }
 
-// Function to convert temperature from Kelvin to Fahrenheit
-function convertKelvinToFahrenheit(kelvin) {
-  return (kelvin - 273.15) * 9 / 5 + 32;
-}
-
 // Function to display weather data
 function displayWeatherData(data) {
   const weatherInfoElement = document.getElementById('weather-info');
 
   // Extract the required information from the data
   const cityName = data.name;
-  const temperatureCelsius = data.main.temp;
-  const temperatureFahrenheit = convertKelvinToFahrenheit(temperatureCelsius);
+  const temperatureFahrenheit = data.main.temp;
   const description = data.weather[0].description;
   const weatherIcon = data.weather[0].icon;
+  const windspeed = data.wind.speed;
 
   // Create the HTML content
   const htmlContent = `
-    <p class="headline">${temperatureFahrenheit.toFixed(2)}°F</p>
-    <img class="w-icon" alt="icon" src="https://openweathermap.org/img/wn/${weatherIcon}@2x.png">
-    <p class="headline">${description}</p>
-
+    <span class="weather-headline">${city} Weather</span>
+    <img class="weather-img" alt="Weather icon" src="https://openweathermap.org/img/wn/${weatherIcon}@2x.png">
+    <span class="weather-temp">${temperatureFahrenheit.toFixed(1)}°F</span>
+    <span class="weather-description">${description}</span>
+    <span class="weather-seven">Wind Speed: ${windspeed}mph</span>
   `;
 
   // Update the weather info element
