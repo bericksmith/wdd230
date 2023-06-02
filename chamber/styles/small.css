@@ -328,7 +328,10 @@ aside {
   text-decoration: none;
 }
 #spotlight1,
-#spotlight2 {
+#spotlight2,
+#spotlight4,
+#spotlight5,
+#spotlight6 {
   background-color: #eeeeee;
   border: 2px solid #bbbbbb;
   padding: 10px;
