@@ -357,12 +357,11 @@ aside {
 
 .discover {
   display: grid;
-  grid-template-columns: 2fr 3fr 1fr;
 }
 
 .discover picture img {
-  width: 225px;
-  height: 300px;
+  width: 300px;
+  height: 400px;
   object-fit: cover;
   object-position: center;
   box-shadow: 4px 4px 8px #858585;
@@ -370,10 +369,6 @@ aside {
   border: 1px solid #858585; 
 }
 
-.discover picture img:hover {
-	-webkit-transform: scale(1.02);
-	transform: scale(1.02);
-}
 
 .name-footer h2 {
   color: #fff;
@@ -404,6 +399,10 @@ aside {
 main picture.test img {
   width: 100%;
 
+}
+
+figure {
+  text-align: center;
 }
 
 figcaption {

@@ -47,8 +47,9 @@
 	aside {
 		grid-column: 1/4;
 		grid-row: 3/4;
+		display: block;
 	}
-	
+
 	.join {
 		grid-column: 1/4;
 		grid-row: 4/5;
@@ -127,5 +128,23 @@
     .name-footer p {
         text-align: left;
     }
+	.discover {
+		display: grid;
+		grid-template-columns: 1fr 3fr 1fr;
+	  }
+
+	.discover picture img:hover {
+		-webkit-transform: scale(1.02);
+		transform: scale(1.02);
+	}
+	.discover picture img {
+		width: 225px;
+		height: 300px;
+		object-fit: cover;
+		object-position: center;
+		box-shadow: 4px 4px 8px #858585;
+		padding: 10px;
+		border: 1px solid #858585; 
+	  }
 
 }
