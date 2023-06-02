@@ -33,15 +33,23 @@ function displayWeatherData(data) {
 
   const cityName = data.name;
   const temperatureFahrenheit = data.main.temp;
-  const description = data.weather[0].description;
   const weatherIcon = data.weather[0].icon;
   const windspeed = data.wind.speed;
+  const description = data.weather[0].description;
+  //capitalize each discription word
+  const words = description.split(" ");
+  const capitalizedWords = words.map(function(word) {
+    return word.charAt(0).toUpperCase() + word.slice(1);
+  });
+  const capitalizedDescription = capitalizedWords.join(" ");
+
 
   const htmlContent = `
     <span class="weather-headline">${city} Weather</span>
     <img class="weather-img" alt="Weather icon" src="https://openweathermap.org/img/wn/${weatherIcon}@2x.png">
     <span class="weather-temp">${temperatureFahrenheit.toFixed(1)}°F</span>
-    <span class="weather-description">${description}</span>
+    <hr class="weather-description">
+    <span class="weather-description">${capitalizedDescription}</span>
     <span class="weather-seven">Wind Speed: ${windspeed}mph</span>
   `;
 
