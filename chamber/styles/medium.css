@@ -136,11 +136,7 @@
 		display: none;
 	}
 
-	.discover picture img:hover {
-		-webkit-transform: scale(1.02);
-		transform: scale(1.02);
-	}
-	.discover picture img {
+	.discover-card picture img {
 		width: 225px;
 		height: 300px;
 		object-fit: cover;
@@ -149,6 +145,11 @@
 		padding: 10px;
 		border: 1px solid #858585; 
 	  }
+
+	  .discover-card picture img:hover {
+		-webkit-transform: scale(1.02);
+		transform: scale(1.02);
+	}
 
 	  .join-van-cc {
 		grid-template-columns: 1fr 1fr;
