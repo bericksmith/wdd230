@@ -1,6 +1,6 @@
 :root {
   --primary-color: #283618;
-  --secondary-color: #606c38;
+  --secondary-color: hsl(74, 32%, 32%);
   --accent1-color: #bc6c25;
   --accent2-color: #dda15e;
 
@@ -237,6 +237,7 @@ header div nav {
   padding: 10px;
   text-align: center;
   position: relative;
+  margin-bottom: 20px;
 }
 
 
@@ -268,6 +269,11 @@ header div nav {
   float: left;
   filter: drop-shadow(6px 6px 6px rgb(124, 124, 124));
   grid-column: 1/2;
+}
+
+.weather-forecast-img {
+  display:flex;
+  filter: drop-shadow(6px 6px 6px rgb(124, 124, 124));
 }
 .weather-temp {
   grid-column: 2/3;
@@ -360,6 +366,10 @@ aside {
 
 .discover {
   display: grid;
+}
+
+.discover-left {
+  display: none;
 }
 
 .discover picture img {
@@ -492,57 +502,58 @@ picture.test {
 
 .join-van-cc {
   display: grid;
-  grid-template-columns: 2fr 3fr 1fr;
 }
 
 /* form */
 
 .form-container form {
-  border: 1px solid #000000;
-  padding: 1rem;
-  margin: 1rem;
-  border-radius: 1rem;
-  max-width: 30rem;
+  border: 0px solid #000000;
+  padding: 16px;
+  margin: 16px;
+  max-width: 100%;
   margin: 0 auto;
+  padding-top: 10px;
 }
 
 form label {
-display: block;
-padding-top: 1rem;
-font-size: 1rem;
+padding-top: 10px;
+font-size: 16px;
+font-weight: bold;
 color:rgb(0, 0, 0);
 text-align: left;
 }
-form label input {
-  display: block;
-  padding: 0.75rem;
+
+form input {
+  padding: 10px;
   width: 100%;
-  max-width: 30rem;
   border-radius: 4px;
-  margin-top: 4px;
+  margin: 10px 0px;
 }
-form label textarea
+form textarea
 {
+  padding: 10px;
   width: 100%;
-  margin-top: 0.5em;
+  margin-top: 8px;
+  border-radius: 4px;
 }
-form label input, form label select, form label textarea{
+form input, form select, form textarea{
   background-color: #fff;
 }
-form label input:required{
+form input:required{
   background-color: rgba(188, 108, 37, 0.4);
 }
-form label input:required:valid{
+form input:required:valid{
   background-color: rgba(96, 108, 56, 0.2);
 }
-form label select{
-  margin-left:1em;
+form select{
+  border-radius: 4px;
+  margin: 10px 0px;
+  padding: 10px;
 }
 .form-container form button {
-  margin-top: 1rem;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, 0);
+  margin-top: 16px;
+  width: 100%;
+  padding: 10px;
 }
 
 .last-visit-container {
@@ -560,5 +571,21 @@ form label select{
 .last-visit {
   font-weight: bold;
   font-size: 12px;
+}
+
+.forecast-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  height: 100px;
+}
+
+.forecast-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
 }
 

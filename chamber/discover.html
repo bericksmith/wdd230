@@ -51,8 +51,9 @@
               
     </header>
     <main class="discover">
-        <div>
-            <aside class="aside">
+        <!--Hide On Medium/small View-->
+        <div class="discover-left">
+                <aside class="aside">
                     <div class="spotlight" id="spotlight1">                
                         <img src="images/fastcleaning.png" alt="Fast Cleaning">
                         <p>Let us help you!</p>
@@ -72,7 +73,7 @@
                         <p>For all your floral needs.
                         <hr>
                         <p>info@blackrose.com</p>
-                        <p>360-876-5432 |<a href="#">Website</a></p>
+                        <p>360-816-1132 |<a href="#">Website</a></p>
                     </div>
                     <div class="spotlight" id="spotlight4">                
                         <img src="images/fastcleaning.png" alt="Fast Cleaning">
@@ -97,41 +98,34 @@
                     </div>
                 </aside> 
         </div>
+        <!--End Hide On Medium View-->
         <div class="discover-center">
             <div class="discover-center-full">
                 <h1>Discover Vancouver, Washington U.S.A.!</h1>
                 <p>The vibrant city of Vancouver, is nestled in the beautiful Pacific Northwest region of the United States. With its stunning natural surroundings and diverse community, Vancouver offers a unique blend of outdoor adventures, cultural attractions, and a thriving economy.</p>
-                <!--<section>      
-                  <div id="forecast-container">
-                    <div id="forecast-div"></div>
-                  </div>
-                  <table id="forecast-table">
-                    <tr>
-                      <th>Date</th>
-                      <th>Temperature</th>
-                      <th>Description</th>
-                    </tr>
-                  </table>
+                <br>
+                <span class="headline">5 day Weather Forecast:</span>
+                <div class="forecast-grid" id="forecast-grid"></div>
 
-                </section>-->
+                <br>
                 <p class="headline">Demographic Data:</p>
                 <p>Population: As of 2021, Vancouver is home to approximately 186,256 residents, making it the fourth-largest city in Washington state. The population has steadily grown over the years, reflecting the city's appeal as a great place to live, work, and raise a family.</p>
-           
+                <br>
                 <p class="headline">Ethnic Diversity:</p>
                 <p>Vancouver embraces a rich cultural tapestry, with a diverse population that includes individuals from various ethnic backgrounds. The city's multicultural fabric fosters an inclusive atmosphere and provides opportunities for residents to learn from different traditions and perspectives.</p>
-
+                <br>
                 <p class="headline">Economic Strength:</p>
                 <p>Vancouver boasts a robust and growing economy. The city benefits from a strategic location, close proximity to major transportation routes, and a skilled workforce. Industries such as technology, healthcare, education, manufacturing, and retail contribute significantly to the local economy, providing abundant job opportunities and driving innovation.</p>
-
+                <br>
                 <p class="headline">Education:</p>
                 <p>Vancouver takes pride in its excellent educational institutions, from highly regarded public and private schools to prestigious higher education options. The city is home to Clark College, which offers a wide range of academic programs and serves as a hub for lifelong learning.</p>
-
+                <br>
                 <p class="headline">Outdoor Paradise:</p>
                 <p>Nature enthusiasts will fall in love with Vancouver's scenic wonders. The city is nestled along the banks of the Columbia River, offering breathtaking views and a host of recreational activities. Whether you enjoy hiking, kayaking, or exploring local parks, Vancouver's natural beauty provides endless opportunities for adventure and relaxation.</p>
-
+                <br>
                 <p class="headline">Arts and Culture:</p>
                 <p>Immerse yourself in Vancouver's vibrant arts and cultural scene. The city is home to numerous galleries, theaters, and museums, showcasing a variety of artistic expressions. Residents and visitors alike can enjoy live performances, exhibitions, and community events that celebrate the city's creative spirit.</p>
-
+                <br>
                 <p>Vancouver is renowned for its high quality of life. The city prides itself on its safe neighborhoods, well-maintained parks, and a strong sense of community. Residents benefit from excellent healthcare facilities, a wide range of recreational amenities, and a thriving local food scene, making Vancouver an ideal place to call home.</p>
                 <p>Come and experience the unique charms of Vancouver, Washington. Whether you're seeking natural beauty, cultural experiences, or a vibrant community, this city has it all. Plan your visit or make Vancouver your new home today and discover why it's an exceptional place to live, work, and play.</p>
             
@@ -196,8 +190,13 @@
             Last visit: <span id="last-visit">This is your first time here!</span>
         </div>
     </footer>
-            <!--<script src="scripts/forecast.js"></script> -->
+            <script src="scripts/forecast.js"></script>
+            <script src="scripts/lazyload.js"></script>
             <script src="scripts/localstorage.js"></script> 
-            <script src="scripts/script.js"></script>      
+            <script src="scripts/script.js"></script>     
+            
+            
+
+            <script src="scripts/chambermeet.js"></script>
         </body>
         </html>

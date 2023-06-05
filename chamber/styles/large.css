@@ -68,5 +68,15 @@
   #spotlight3 {
     display: block;
   }
-  
+
+
+  .discover {
+		display: grid;
+		grid-template-columns: 1fr 3fr 1fr;
+
+	.discover-left {
+		display: block;
+	}
+
 }
+

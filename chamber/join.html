@@ -51,12 +51,12 @@
               
     </header>
     <main class="join-van-cc">
-       
+       <h1>Join Us!</h1>
+
+       <h2>Membership levels:</h2>
 
       <div class="container">
-      <div>
-      <span class="headline">Bronze</span>
-      <p><span style="color: #000000;"><strong>MARKETING</strong></span></p>
+      <span class="headline">Bronze ($100 month)</span>
       <p><span style="color: #000000;">✔️ Recognition on social media channels</span></p>
       <p><span style="color: #000000;">✔️ Customizable company profile on our website</span></p>
       <p><span style="color: #000000;">✔️ SEO optimized member listing on our website</span></p>
@@ -72,9 +72,9 @@
       <p>✔️ Exclusive customer referral service</p>
       <p>✔️ Member-To-Member benefits access</p>
       <p>✔️ Members-only pricing at all events</p>
-<hr>
-        <span class="headline">Silver</span>
-        <p><span style="color: #000000;"><strong>MARKETING</strong></span></p>
+    </div>
+      <div class="container">
+        <span class="headline">Silver ($200 month)</span>
         <p><span style="color: #000000;">✔️ Recognition on social media channels</span></p>
         <p><span style="color: #000000;">✔️ Customizable company profile on our website</span></p>
         <p><span style="color: #000000;">✔️ SEO optimized member listing on our website</span></p>
@@ -90,9 +90,9 @@
         <p>✔️ Exclusive customer referral service</p>
         <p>✔️ Member-To-Member benefits access</p>
         <p>✔️ Members-only pricing at all events</p>
-<hr>
-          <span class="headline">Gold</span>
-          <p><span style="color: #000000;"><strong>MARKETING</strong></span></p>
+        </div>
+        <div class="container">
+          <span class="headline">Gold ($300 month)</span>
           <p><span style="color: #000000;">✔️ Recognition on social media channels</span></p>
           <p><span style="color: #000000;">✔️ Customizable company profile on our website</span></p>
           <p><span style="color: #000000;">✔️ SEO optimized member listing on our website</span></p>
@@ -108,35 +108,10 @@
           <p>✔️ Exclusive customer referral service</p>
           <p>✔️ Member-To-Member benefits access</p>
           <p>✔️ Members-only pricing at all events</p>
-          </div>
+        
 
 
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
       <div class="form-container">
@@ -146,41 +121,39 @@
             <p>Please fill in this form to create an account.</p>
             <hr>
             <label for="fname">First name*
-              <input type="text" id="fname" name="fname" required>
-            </label><br>
+            <input type="text" id="fname" name="fname" placeholder="Name" required>
+            </label>
             <label for="lname">Last name*
-              <input type="text" id="lname" name="lname" required>
-            </label><br>
-            <label for="title">Title
-              <input type="text" id="title" name="title" pattern="[A-Za-z\-\s]{8,}">
-            </label><br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+            </label>
+            <label for="position">Position
+            <input type="text" id="position" name="position" placeholder="Position in Organization" pattern="[A-Za-z\-\s]{7,}">
+            </label>
             <label for="email">Email*
-              <input id="email" type="email" placeholder="youremail@website.com" name="email" required>
-            </label><br>
-            <label for="phone">Phone Number*
-              <input id="phone" type="tel" name="phone" required>
-            </label><br>
-
+            <input id="email" type="email" placeholder="youremail@website.com" name="email" placeholder="Email" required>
+            </label>
+            <label for="phone">Cell Phone Number*
+            <input id="phone" type="tel" name="phone" placeholder="Cell phone #" required>
+            </label>
             <label for="business">Business Name*
-              <input type="text" id="business" name="business" required>
-            </label><br>
-
-            <label for="membership">Membership Level
+            <input type="text" id="business" name="business" placeholder="Business" required>
+            </label>
+            <label for="membership">Membership Level<br>
               <select name="membership" id="membership">
-                <option value="NP">Select</option>
-                <option value="Bronze">Bronze</option>
-                <option value="Silver">Silver</option>
-                <option value="Gold">Gold</option>
+                <option value="">Select One</option>
+                <option value="NP">Non-Profit</option>
+                <option value="Bronze">Bronze Membership</option>
+                <option value="Silver">Silver Membership</option>
+                <option value="Gold">Gold Membership</option>
               </select>
-            </label><br>
-
+            </label>
+            <br>
             <label for="description">Business Description
-              <textarea id="description" name="description" rows="4" cols="50"></textarea>
-            </label><br>
-
+            <textarea id="description" name="description" placeholder="Description of your organization" rows="4" cols="50"></textarea>
+            </label>
             <input type="hidden" id="DateTime" name="DateTime" value="">
 
-            <button type="submit" class="signupbtn">Sign Up</button>
+            <button type="submit" class="signupbtn">Sign Up Now!</button>
           </form>
 
           </div>

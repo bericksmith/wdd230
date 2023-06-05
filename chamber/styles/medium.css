@@ -1,4 +1,4 @@
-@media (min-width: 600px) {
+@media (min-width: 620px) {
 	
 	h1 {
 		font-size: 1.3rem;
@@ -130,7 +130,11 @@
     }
 	.discover {
 		display: grid;
-		grid-template-columns: 1fr 3fr 1fr;
+		grid-template-columns: 3fr 1fr;
+
+	.discover-left {
+		display: none;
+	}
 
 	.discover picture img:hover {
 		-webkit-transform: scale(1.02);
