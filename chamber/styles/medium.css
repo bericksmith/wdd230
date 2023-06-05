@@ -131,7 +131,6 @@
 	.discover {
 		display: grid;
 		grid-template-columns: 1fr 3fr 1fr;
-	  }
 
 	.discover picture img:hover {
 		-webkit-transform: scale(1.02);
@@ -145,6 +144,10 @@
 		box-shadow: 4px 4px 8px #858585;
 		padding: 10px;
 		border: 1px solid #858585; 
+	  }
+
+	  .join-van-cc {
+		grid-template-columns: 1fr 1fr;
 	  }
 
 }
