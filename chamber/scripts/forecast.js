@@ -1,6 +1,6 @@
 const apiKey = 'bb06f83ae63888ef53975084692c8460';
 const latitude = 45.6387;
-const longitude = -122.6615
+const longitude = -122.6615;
 
 const APIurl = `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`;
 
@@ -21,7 +21,7 @@ fetch(APIurl)
 
     let counter = 0;
     Object.keys(groupedData).forEach(date => {
-      if (counter >= 4) {
+      if (counter >= 3) {
         return;
       }
 
@@ -57,14 +57,11 @@ fetch(APIurl)
     console.log('Error:', error);
   });
 
-  function getDayName(dateString) {
-    const date = new Date(dateString);
-    const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-    return daysOfWeek[date.getDay()];
-  }
-
-
-      
+function getDayName(dateString) {
+  const date = new Date(dateString);
+  const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  return daysOfWeek[date.getDay()];
+}
 
 
 

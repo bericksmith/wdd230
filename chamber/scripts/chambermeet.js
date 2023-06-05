@@ -1,6 +1,5 @@
 
 // Chamber meeting messages display Monday and Tuesday
-const today = new Date().getDay();
 
 const element = document.getElementById("chambermeet");
 

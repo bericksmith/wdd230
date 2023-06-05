@@ -574,18 +574,6 @@ form select{
 }
 
 .forecast-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 10px;
-  height: 100px;
-}
-
-.forecast-card {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 10px;
-  text-align: center;
+  display: none;
 }
 

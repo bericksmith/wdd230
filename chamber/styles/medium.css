@@ -154,4 +154,21 @@
 		grid-template-columns: 1fr 1fr;
 	  }
 
-}
+	  .forecast-grid {
+		display: flex;
+		flex: auto;
+		flex-direction: row;
+		justify-content: space-around;
+		height: 120px;
+	  }
+	  
+	  .forecast-card {
+		display: flex;
+		flex-direction: column;
+		border: 1px solid black;
+		width: 110px;
+		border-radius: 5px;
+		padding: 10px;
+		margin: 10px 5px;
+		text-align: center;
+	  }
