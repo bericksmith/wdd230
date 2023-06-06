@@ -109,15 +109,13 @@ footer {
   font-weight: bold;
 }
 
-
-
 h1 {
-  font-size: 1.0rem;
+  font-size: 24px;
   margin: 0;
 }
 
 h2 {
-  padding: 0.5rem;
+  padding: 18px;
   color: black;
 }
 
@@ -134,7 +132,7 @@ a {
 .headline {
   font-size: 18px;
   font-weight: bold;
-  margin: 0; 
+  margin: 0;
 }
 
 .vanCC-name {
@@ -240,7 +238,6 @@ header div nav {
   margin-bottom: 20px;
 }
 
-
 /* News Section */
 
 .news {
@@ -252,17 +249,17 @@ header div nav {
 }
 
 /* Weather Section */
-#weather-info{
+#weather-info {
   margin: 0;
   padding: 0px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows:min-content auto;
+  grid-template-rows: min-content auto;
 }
-.weather-headline{
-    grid-column: 1/3;
-    font-size: 22px;
-    font-weight: bold;
+.weather-headline {
+  grid-column: 1/3;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .weather-img {
@@ -272,14 +269,14 @@ header div nav {
 }
 
 .weather-forecast-img {
-  display:flex;
+  display: flex;
   filter: drop-shadow(6px 6px 6px rgb(124, 124, 124));
 }
 .weather-temp {
   grid-column: 2/3;
   font-size: 22px;
   font-weight: bold;
-  color:#bc6c25;
+  color: #bc6c25;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -333,6 +330,7 @@ aside {
   text-align: center;
   text-decoration: none;
 }
+
 #spotlight1,
 #spotlight2,
 #spotlight4,
@@ -379,7 +377,7 @@ aside {
   object-position: center;
   box-shadow: 4px 4px 8px #858585;
   padding: 10px;
-  border: 1px solid #858585; 
+  border: 1px solid #858585;
 }
 
 .name-footer h2 {
@@ -410,7 +408,6 @@ aside {
 /* week 6 images */
 main picture.test img {
   width: 100%;
-
 }
 
 figure {
@@ -506,7 +503,6 @@ picture.test {
 /* form */
 
 .form-container form {
-  border: 0px solid #000000;
   padding: 16px;
   margin: 16px;
   max-width: 100%;
@@ -515,56 +511,65 @@ picture.test {
 }
 
 form label {
-padding-top: 10px;
-font-size: 16px;
-font-weight: bold;
-color:rgb(0, 0, 0);
-text-align: left;
+  display:block;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: left;
 }
 
 form input {
+  border: 1px solid black;
   padding: 10px;
   width: 100%;
   border-radius: 4px;
   margin: 10px 0px;
 }
-form textarea
-{
+
+form input:required {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-left: red solid 5px;
+}
+
+form input:required:valid {
+  border-left: green solid 5px;
+}
+
+
+
+form textarea {
   padding: 10px;
   width: 100%;
   margin-top: 8px;
   border-radius: 4px;
 }
-form input, form select, form textarea{
-  background-color: #fff;
-}
-form input:required{
-  background-color: rgba(188, 108, 37, 0.4);
-}
-form input:required:valid{
-  background-color: rgba(96, 108, 56, 0.2);
-}
-form select{
+
+form select {
   border-radius: 4px;
   margin: 10px 0px;
   padding: 10px;
+  width: 100%;
 }
-.form-container form button {
+.signupBtn {
   margin-top: 16px;
   width: 100%;
   padding: 10px;
+  background-color: #bc6c25;
+  color: #fff;
+  font-weight: bold;
 }
 
-.last-visit{
+.last-visit {
   grid-column: 1/4;
   max-width: 1200px;
-  width:100%;
+  width: 100%;
   margin: 5px 0 auto;
   text-align: center;
   height: 30px;
   background-color: var(--accent2-color);
   padding: 6px;
-  color:#000;
+  color: #000;
 }
 
 .visitInfo {
@@ -575,4 +580,3 @@ form select{
 .forecast-grid {
   display: none;
 }
-
