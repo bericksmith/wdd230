@@ -85,6 +85,13 @@
 
   .join-van-cc {
     display: grid;
-    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .title {
+    grid-column: 1/4;
+    width: 100%;
+  }
+
+
 }
