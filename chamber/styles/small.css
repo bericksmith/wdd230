@@ -559,7 +559,7 @@ form select{
   grid-column: 1/4;
   max-width: 1200px;
   width:100%;
-  margin: 0 auto;
+  margin: 5px 0 auto;
   text-align: center;
   height: 30px;
   background-color: var(--accent2-color);
@@ -567,7 +567,7 @@ form select{
   color:#000;
 }
 
-.last-visit {
+.visitInfo {
   font-weight: bold;
   font-size: 16px;
 }

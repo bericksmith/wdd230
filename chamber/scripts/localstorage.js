@@ -1,12 +1,18 @@
-  const lastvisitElement = document.getElementById("last-visit")
-  const msInDay = 1000 * 60 * 60 * 24;
+        if (typeof(Storage) !== "undefined") {
+          const lastVisit = localStorage.getItem("lastVisit");
 
-  let lastVisitTime = Number(window.localStorage.getItem("visittime-ls"));
+          if (lastVisit) {
+              const currentDate = new Date();
+              const previousVisit = new Date(lastVisit);
+              const timeDiff = Math.abs(currentDate.getTime() - previousVisit.getTime());
+              const daysSinceVisit = Math.ceil(timeDiff / (1000 * 3600 * 24));
 
-  if (lastVisitTime !== 0) {
-      lastvisitElement.textContent = Math.round((now.getTime() - lastVisitTime)/msInDay);
-  } else {
-    lastvisitElement.textContent = `Welcome!! This is your first time here!`;
-  }
+              document.getElementById("visitInfo").textContent = `Welcome back! It has been ${daysSinceVisit} days since your last visit.`;
+          } else {
+              document.getElementById("visitInfo").textContent = "Welcome! This is your first visit.";
+          }
 
-  localStorage.setItem("visittime-ls", now.getTime());
+          localStorage.setItem("lastVisit", new Date());
+      } else {
+          document.getElementById("visitInfo").textContent = "Local storage is not supported on this browser.";
+      }
