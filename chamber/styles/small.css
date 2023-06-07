@@ -110,9 +110,9 @@ footer {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 30px;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
@@ -511,6 +511,12 @@ picture.test {
   width: 100%;
 }
 
+.joinbridge {
+  margin:10px;
+ width: 100%;
+ border: #555 2px solid;
+}
+
 /* form */
 
 .form-container form {
@@ -571,6 +577,15 @@ form textarea {
   border-radius: 4px; 
   width: 96%;
   padding: .75rem;
+}
+fieldset {
+  border-radius: 4px;
+}
+
+legend {
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .membership {
