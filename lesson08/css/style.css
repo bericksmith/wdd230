@@ -13,12 +13,29 @@ h1 {
   text-align: center;
 }
 
-table,
+table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 20px 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
 th,
 td {
   border: 1px solid #eaeaea;
   border-collapse: collapse;
-  padding: 10px 10px;
+  padding: 20px 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+td.table-title{
+  border: 0px solid #000000;
+  border-collapse: collapse;
+  padding: 20px 10px;
   text-align: center;
   font-weight: bold;
   font-size: 1.1em;
@@ -27,17 +44,17 @@ td {
 .xxx {
   font-weight: bold;
   font-size: 1.4em;
-  color: #bc6c25;
+  color: #eb1219;
 }
 
 .mark {
   font-weight: bold;
   font-size: 1.4em;
-  color: green;
+  color: rgb(106, 31, 226);
 }
 
 table .table-title {
-  background-color: #283618;
+  background-color: #000;
   font-size: 1.1em;
   font-weight: bold;
   color: #fff;
@@ -45,7 +62,7 @@ table .table-title {
 }
 
 table th {
-  background-color: rgba(40, 54, 24, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   letter-spacing: 3px;
   border: 0px;
