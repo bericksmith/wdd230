@@ -93,7 +93,12 @@ a:hover{
 }
 
 ul {
-  list-style-position: inside;
+padding: 15px;
+  text-align: left;
+}
+
+li {
+  padding-bottom: 5px;
 }
 
 footer {
@@ -569,6 +574,7 @@ form input.submitBtn{
   padding: 1.5rem 1.5rem;
   margin: 20px 0 2rem 0;
   width: 100%;
+  cursor:pointer;
 }
 
 form label.top input:required {
