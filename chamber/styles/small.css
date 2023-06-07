@@ -45,6 +45,7 @@ p {
   height: 65px;
 }
 
+
 header {
   background-color: var(--primary-color);
   color: var(--headline-color-on-color);
@@ -76,6 +77,19 @@ header div #datetime {
 
 .date-hdr {
   grid-column: 1/4;
+}
+
+a {
+  font-size: 18px;
+  color: #283618;
+  cursor:pointer;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #bc6c25;
+  cursor:pointer;
+  text-decoration: none;
 }
 
 footer {
@@ -122,15 +136,6 @@ h2 {
 
 
 
-header div button,
-a {
-  margin: 0.2rem 2vw;
-  background: transparent;
-  border: none;
-  font-size: 2rem;
-  color: #fff;
-  padding: 0px 5px;
-}
 
 .headline {
   font-size: 18px;
@@ -556,9 +561,9 @@ form input.submitBtn{
   background-color: #bc6c25;
   color: white;
   font-weight: bold;
-  border-radius: .75rem;
-  padding: .75rem 1.5rem;
-  margin: 10px 0 2rem 0;
+  border-radius: 6px;
+  padding: 1.5rem 1.5rem;
+  margin: 20px 0 2rem 0;
   width: 100%;
 }
 
@@ -572,11 +577,11 @@ form label.top input:required:valid {
 
 form textarea {
   display: block;
-  font-size: 1rem;
+  font-size: 18px;
   border: solid 1px #999;
   border-radius: 4px; 
-  width: 96%;
-  padding: .75rem;
+  width: 100%;
+  padding: 15px;
 }
 fieldset {
   border-radius: 4px;
@@ -584,7 +589,7 @@ fieldset {
 
 legend {
   padding: 5px;
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -614,6 +619,10 @@ legend {
 }
 
 
+.thankyou {
+ display:grid;
+ grid-template-columns: 1fr;
+}
 
 /*directory page*/
 .dir-buttons{
