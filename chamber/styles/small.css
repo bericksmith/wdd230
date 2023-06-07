@@ -597,3 +597,52 @@ form textarea {
 .forecast-grid {
   display: none;
 }
+
+
+
+/*directory page*/
+.dir-buttons{
+  text-align: end;
+  }
+  #dir-panel{
+      background-image: url(../images/dirview_panel.png);
+      background-size: 73px 73px;
+      height: 75px;
+      width: 75px;
+  }
+  #dir-list{
+      background-image: url(../images/dirview_list.png);
+      background-size: 73px 73px;
+      height: 75px;
+      width: 75px;
+  }
+  .dir-buttons button{
+      background-color: rgba(60, 193, 255, 0.096);
+      margin: -2em 1em 2em 1em;
+  }
+  .dir-buttons button:focus{
+      background-color: rgb(60, 193, 255);
+  }
+  
+  
+  .directory-grid {
+      color: black;
+      margin-bottom: 2em;
+  }
+  
+  .directory-grid section {
+      padding: 2em;
+      margin: 0.4em 0.4em 2em 0.4em;
+      display: grid;
+  
+      align-items: center;
+      grid-template-columns: 2fr 1fr;
+  }
+  
+  .directory-grid img {
+      display: none;
+  }
+  
+  .directory-grid section a {
+      text-align: right;
+  }

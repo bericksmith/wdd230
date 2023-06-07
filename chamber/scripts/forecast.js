@@ -21,7 +21,7 @@ fetch(APIurl)
 
     let counter = 0;
     Object.keys(groupedData).forEach(date => {
-      if (counter >= 3) {
+      if (counter >= 4) {
         return;
       }
 
