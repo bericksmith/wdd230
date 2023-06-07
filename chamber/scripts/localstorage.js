@@ -7,7 +7,7 @@
               const timeDiff = Math.abs(currentDate.getTime() - previousVisit.getTime());
               const daysSinceVisit = Math.ceil(timeDiff / (1000 * 3600 * 24));
 
-              document.getElementById("visitInfo").textContent = `Welcome back! ${daysSinceVisit} days since your last visit.`;
+              document.getElementById("visitInfo").textContent = `${daysSinceVisit} days since your last visit.`;
           } else {
               document.getElementById("visitInfo").textContent = "Welcome! This is your first visit.";
           }
