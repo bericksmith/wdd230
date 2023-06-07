@@ -1,0 +1,93 @@
+{
+"businesses": [
+    {
+        "name": "ABC Company",
+        "address": "123 Main Street",
+        "phone": "123-456-7890",
+        "website": "www.example.com",
+        "imageurl": "images/image.jpg",
+        "membership": "Gold",
+        "slogan": "Delivering excellence"
+        },
+        {
+        "name": "XYZ Corporation",
+        "address": "456 Elm Avenue",
+        "phone": "987-654-3210",
+        "website": "www.xyzcorp.com",
+        "imageurl": "images/image.jpg",
+        "membership": "Silver",
+        "slogan": "Quality you can trust"
+        },
+        {
+        "name": "123 Industries",
+        "address": "789 Oak Road",
+        "phone": "456-789-0123",
+        "website": "www.123industries.com",
+        "imageurl": "images/image.jpg",
+        "membership": "Bronze",
+        "slogan": "Innovation at its best"
+        },
+        {
+        "name": "Acme Corporation",
+        "address": "789 Maple Lane",
+        "phone": "012-345-6789",
+        "website": "www.acmecorp.com",
+        "imageurl": "images/image.jpg",
+        "membership": "Platinum",
+        "slogan": "Your success, our priority"
+        },
+        {
+        "name": "Global Solutions Ltd",
+        "address": "567 Pine Street",
+        "phone": "890-123-4567",
+        "website": "www.globalsolutions.com",
+        "imageurl": "images/image.jpg",
+        "membership": "Gold",
+        "slogan": "Empowering businesses worldwide"
+        },
+        {
+        "name": "Innovate Tech",
+        "address": "234 Cedar Avenue",
+        "phone": "567-890-1234",
+        "website": "www.innovatetech.com",
+        "imageurl": "images/image.jpg",
+        "membership": "Silver",
+        "slogan": "Transforming industries through technology"
+        },
+        {
+        "name": "Swift Services",
+        "address": "890 Oak Street",
+        "phone": "234-567-8901",
+        "website": "www.swiftservices.com",
+        "imageurl": "images/image.jpg",
+        "membership": "Bronze",
+        "slogan": "Reliable and efficient solutions"
+        },
+        {
+        "name": "TechPro Solutions",
+        "address": "345 Elm Road",
+        "phone": "678-901-2345",
+        "website": "www.techprosolutions.com",
+        "imageurl": "images/image.jpg",
+        "membership": "Platinum",
+        "slogan": "Driving innovation forward"
+        },
+        {
+        "name": "Superior Systems",
+        "address": "567 Maple Avenue",
+        "phone": "901-234-5678",
+        "website": "www.superiorsystems.com",
+        "imageurl": "images/image.jpg",
+        "membership": "Gold",
+        "slogan": "Excellence in every detail"
+        },
+        {
+        "name": "Proactive Solutions",
+        "address": "789 Pine Lane",
+        "phone": "234-567-8901",
+        "website": "www.proactivesolutions.com",
+        "imageurl": "images/image.jpg",
+        "membership": "Silver",
+        "slogan": "Your success is our priority"
+        }]
+  }

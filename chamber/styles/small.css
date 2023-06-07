@@ -92,6 +92,10 @@ a:hover{
   text-decoration: none;
 }
 
+ul {
+  list-style-position: inside;
+}
+
 footer {
   background-color: var(--primary-color);
   display: flex;
