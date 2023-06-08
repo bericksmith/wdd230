@@ -189,4 +189,9 @@
     margin: 10px 5px;
     text-align: center;
   }
+  .weather-forcast-img {
+    filter: drop-shadow(6px 6px 6px rgb(124, 124, 124));
+  }
+
 }
+
