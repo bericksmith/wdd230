@@ -43,10 +43,10 @@ fetch(requestURL)
 
 
   const directory = document.querySelector('.directory-grid')
-  const dirpanelbutton = document.querySelector('#dir-panel');
-  const dirlistbutton = document.querySelector('#dir-list');
+  const panelbutton = document.querySelector('#panel');
+  const listbutton = document.querySelector('#list');
 
 
-  dirpanelbutton.addEventListener('click', () => {directory.classList.add('panelview')}, false);
-  dirlistbutton.addEventListener('click', () => {directory.classList.remove('panelview')}, false);
+  panelbutton.addEventListener('click', () => {directory.classList.add('panelview')}, false);
+  listbutton.addEventListener('click', () => {directory.classList.remove('panelview')}, false);
 
