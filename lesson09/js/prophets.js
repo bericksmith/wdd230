@@ -38,18 +38,11 @@ function displayProphets(prophet) {
   h2.textContent = `${prophet.name} ${prophet.lastname} - ${prophetOrder}`;
 
   p1.textContent = `Date of Birth: ${prophet.birthdate}`;
-
   p2.textContent = `Place of Birth: ${prophet.birthplace}`;
-
   p3.textContent = `Age: ${age} ${ageText}`;
 
   portrait.setAttribute("src", prophet.imageurl);
-  portrait.setAttribute(
-    "alt",
-    `Portait of ${prophet.name} ${prophet.lastname} - ${getNumberWithOrdinal(
-      prophet.order
-    )} Latter-day President`
-  );
+  portrait.setAttribute("alt",`Portait of ${prophet.name} ${prophet.lastname} - ${prophetOrder}} Latter-day President`);
   portrait.setAttribute("loading", "lazy");
   portrait.setAttribute("width", "340");
   portrait.setAttribute("height", "390");

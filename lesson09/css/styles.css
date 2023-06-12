@@ -43,4 +43,6 @@ footer {
     text-align: center;
     color: #fff;
     margin-bottom: 30px;
+    background-color: #007da5;
+    border: 1px solid #d9d9d9;
 }
