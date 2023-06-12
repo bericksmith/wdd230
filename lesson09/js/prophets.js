@@ -46,6 +46,7 @@ function displayProphets(prophet) {
   portrait.setAttribute("loading", "lazy");
   portrait.setAttribute("width", "340");
   portrait.setAttribute("height", "390");
+  portrait.setAttribute("object-fit", "cover");  
 
   card.appendChild(h2);
   card.appendChild(p1);

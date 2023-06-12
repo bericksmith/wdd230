@@ -94,4 +94,11 @@
   }
 
 
+  .directory-grid section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .panelview {
+    grid-template-columns: 1fr 1fr 1fr;
+}
 }

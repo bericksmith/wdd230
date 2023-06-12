@@ -635,48 +635,91 @@ legend {
 }
 
 /*directory page*/
+
+.directory {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: start;
+}
+
+.content-container{
+  padding: 0 2%;
+}
+
 .dir-buttons{
   text-align: end;
   }
+
   #dir-panel{
-      background-image: url(../images/dirview_panel.png);
-      background-size: 73px 73px;
-      height: 75px;
-      width: 75px;
+      background-image: url(../images/panel.png);
+      background-size: 50px 50px;
+      height: 50px;
+      width: 50px;
   }
   #dir-list{
-      background-image: url(../images/dirview_list.png);
-      background-size: 73px 73px;
-      height: 75px;
-      width: 75px;
+      background-image: url(../images/list.png);
+      background-size: 50px 50px;
+      height: 50px;
+      width: 50px;
   }
   .dir-buttons button{
-      background-color: rgba(60, 193, 255, 0.096);
-      margin: -2em 1em 2em 1em;
+      background-color:#bc6c25;
+      margin: -30px 15px 20px 15px;
   }
   .dir-buttons button:focus{
-      background-color: rgb(60, 193, 255);
+      background-color:#dda15e;
   }
-  
   
   .directory-grid {
       color: black;
-      margin-bottom: 2em;
+      margin-bottom: 25px;
   }
   
   .directory-grid section {
-      padding: 2em;
-      margin: 0.4em 0.4em 2em 0.4em;
-      display: grid;
-  
-      align-items: center;
-      grid-template-columns: 2fr 1fr;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px;
+    margin: 8px;
+    background-color: #dda15e;
   }
   
   .directory-grid img {
       display: none;
   }
+
+  .directory-grid section p {
+    text-align: center;
+    font-size: 16px;
+}
   
   .directory-grid section a {
-      text-align: right;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
   }
+
+
+.panelview {
+  display: grid;
+  grid-template-columns: 1fr ;
+}
+
+.panelview section {
+  margin: 5px;
+  padding: 15px;
+  text-align: center;
+  display: block;
+
+}
+
+.panelview img{
+  padding: 0px;
+  display: block;
+  margin: 15px auto;
+  width: 50%;
+  box-shadow:  5px 5px 10px #0000007c;
+  border-radius: 5px;
+  max-width: 200px;
+}
+

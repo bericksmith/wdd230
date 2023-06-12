@@ -193,5 +193,21 @@
     filter: drop-shadow(4px 4px 4px rgb(124, 124, 124));
   }
 
+  .directory-grid section {
+    grid-template-columns: 2fr;
+  }
+
+  .directory-grid section h2 {
+    text-align: center;
 }
+
+  .panelview {
+    grid-template-columns: 1fr 1fr;
+}
+
+
+}
+
+
+
 
