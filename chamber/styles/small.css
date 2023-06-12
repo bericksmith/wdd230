@@ -1,6 +1,6 @@
 :root {
   --primary-color: #283618;
-  --secondary-color: hsl(74, 32%, 32%);
+  --secondary-color: #606c38;
   --accent1-color: #bc6c25;
   --accent2-color: #dda15e;
 
@@ -45,7 +45,6 @@ p {
   height: 65px;
 }
 
-
 header {
   background-color: var(--primary-color);
   color: var(--headline-color-on-color);
@@ -82,18 +81,18 @@ header div #datetime {
 a {
   font-size: 18px;
   color: #283618;
-  cursor:pointer;
+  cursor: pointer;
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: #bc6c25;
-  cursor:pointer;
+  cursor: pointer;
   text-decoration: none;
 }
 
 ul {
-padding: 15px;
+  padding: 15px;
   text-align: left;
 }
 
@@ -142,9 +141,6 @@ h2 {
   padding: 6px;
   color: black;
 }
-
-
-
 
 .headline {
   font-size: 18px;
@@ -526,9 +522,9 @@ picture.test {
 }
 
 .joinbridge {
-  margin:10px;
- width: 100%;
- border: #555 2px solid;
+  margin: 10px;
+  width: 100%;
+  border: #555 2px solid;
 }
 
 /* form */
@@ -541,31 +537,32 @@ picture.test {
   padding-top: 10px;
 }
 
-form label.top, form div {
-  display:block;
+form label.top,
+form div {
+  display: block;
   padding-top: 1rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-size: 16px;
   font-weight: bold;
 }
 
 form label.top input {
-display: block;
- border: solid 1px #999;
- border-radius: 4px; 
- padding: .75rem;
- color: #555;
- width: 100%;
- background-color: rgba(0,0,0,0.1); 
-}
-
-form label.sbs{
   display: block;
-  padding: .75rem 0;
-  color:#000;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #555;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-form input.submitBtn{
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  color: #000;
+}
+
+form input.submitBtn {
   border: none;
   background-color: #bc6c25;
   color: white;
@@ -574,7 +571,7 @@ form input.submitBtn{
   padding: 1.5rem 1.5rem;
   margin: 20px 0 2rem 0;
   width: 100%;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 form label.top input:required {
@@ -589,7 +586,7 @@ form textarea {
   display: block;
   font-size: 18px;
   border: solid 1px #999;
-  border-radius: 4px; 
+  border-radius: 4px;
   width: 100%;
   padding: 15px;
 }
@@ -628,10 +625,9 @@ legend {
   display: none;
 }
 
-
 .thankyou {
- display:grid;
- grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 /*directory page*/
@@ -642,67 +638,68 @@ legend {
   align-items: start;
 }
 
-.content-container{
+.content-container {
   padding: 0 2%;
 }
 
-.dir-buttons{
+.directory-buttons {
   text-align: end;
-  }
-
-  #panel{
-      background-image: url(../images/panel.png);
-      background-size: 50px 50px;
-      height: 50px;
-      width: 50px;
-  }
-  #list{
-      background-image: url(../images/list.png);
-      background-size: 50px 50px;
-      height: 50px;
-      width: 50px;
-  }
-  .directory-buttons button{
-      background-color:#bc6c25;
-      margin: -30px 15px 20px 15px;
-  }
-  .directory-buttons button:focus{
-      background-color:#dda15e;
-  }
-  
-  .directory-grid {
-      color: black;
-      margin-bottom: 25px;
-  }
-  
-  .directory-grid section {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 2fr 1fr;
-    padding: 20px;
-    margin: 8px;
-    background-color: #dda15e;
-  }
-  
-  .directory-grid img {
-      display: none;
-  }
-
-  .directory-grid section p {
-    text-align: center;
-    font-size: 16px;
 }
-  
-  .directory-grid section a {
-      text-align: center;
-      font-size: 16px;
-      font-weight: bold;
-  }
 
+.directory-buttons button {
+  background-color: #bc6c25;
+  margin: -30px 15px 20px 15px;
+}
+
+.directory-buttons button:focus {
+  background-color: #dda15e;
+}
+
+#panel {
+  background-image: url(../images/panel.png);
+  background-size: 50px 50px;
+  height: 50px;
+  width: 50px;
+}
+#list {
+  background-image: url(../images/list.png);
+  background-size: 50px 50px;
+  height: 50px;
+  width: 50px;
+}
+
+.directory-grid {
+  color: black;
+  margin-bottom: 25px;
+}
+
+.directory-grid section {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2fr 1fr;
+  padding: 20px;
+  margin: 8px;
+  background-color: #dda15e;
+}
+
+.directory-grid img {
+  display: none;
+}
+
+.directory-grid section p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.directory-grid section a {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
 
 .panelview {
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
 }
 
 .panelview section {
@@ -710,16 +707,14 @@ legend {
   padding: 15px;
   text-align: center;
   display: block;
-
 }
 
-.panelview img{
+.panelview img {
   padding: 0px;
   display: block;
   margin: 15px auto;
   width: 50%;
-  box-shadow:  5px 5px 10px #0000007c;
+  box-shadow: 5px 5px 10px #000000;
   border-radius: 5px;
   max-width: 200px;
 }
-

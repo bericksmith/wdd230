@@ -30,7 +30,7 @@ fetch(requestURL)
     p2.textContent = business.phone;
 
     a.textContent = business.website;
-    a.setAttribute('href', 'http://' + business.website);
+    a.setAttribute('href', 'http://' + business.website); 
   
     card.appendChild(iconImg);
     card.appendChild(h2);
@@ -43,10 +43,10 @@ fetch(requestURL)
 
 
   const directory = document.querySelector('.directory-grid')
-  const panelbutton = document.querySelector('#panel');
-  const listbutton = document.querySelector('#list');
+  const dirpanelbutton = document.querySelector('#panel');
+  const dirlistbutton = document.querySelector('#list');
 
 
-  panelbutton.addEventListener('click', () => {directory.classList.add('panelview')}, false);
-  listbutton.addEventListener('click', () => {directory.classList.remove('panelview')}, false);
+  dirpanelbutton.addEventListener('click', () => {directory.classList.add('panelview')}, false);
+  dirlistbutton.addEventListener('click', () => {directory.classList.remove('panelview')}, false);
 
