@@ -650,20 +650,21 @@ legend {
   background-color: #bc6c25;
   margin: -30px 15px 20px 15px;
   border-radius: 6px;
+  color:#fff;
+  font-weight: bold;
 }
 
 .directory-buttons button:focus {
   background-color: #dda15e;
+  font-weight: bold;
 }
 
 #panel {
-  background-image: url(../images/panel.png);
   background-size: 50px 50px;
   height: 52px;
   width: 52px;
 }
 #list {
-  background-image: url(../images/list.png);
   background-size: 50px 50px;
   height: 52px;
   width: 52px;
