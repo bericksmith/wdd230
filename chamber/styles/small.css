@@ -111,6 +111,13 @@ footer {
   padding: 20px;
 }
 
+footer a {
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 header,
 nav,
 main,
