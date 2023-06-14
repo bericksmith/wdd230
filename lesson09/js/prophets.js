@@ -58,34 +58,6 @@ function displayProphets(prophet) {
 
 
 
-// buttons
-document.querySelector("#all").addEventListener("click", () => {
-	getProphets("all");
-});
-
-document.querySelector("#idaho").addEventListener("click", () => {
-	getProphets("idaho");
-});
-
-document.querySelector("#nonus").addEventListener("click", () => {
-	getProphets("nonus");
-});
-
-document.querySelector("#ten").addEventListener("click", () => {
-	getProphets("ten");
-});
-
-document.querySelector("#childs").addEventListener("click", () => {
-	getProphets("childs");
-});
-
-document.querySelector("#childl").addEventListener("click", () => {
-	getProphets("childl");
-});
-
-document.querySelector("#old").addEventListener("click", () => {
-	getProphets("old");
-});
 
 
 
