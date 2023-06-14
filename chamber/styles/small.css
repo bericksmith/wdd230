@@ -685,7 +685,7 @@ legend {
   padding: 20px;
   margin: 12px;
   background-color: #dda15e;
-  border: 3px #bc6c25 solid;
+  border: 2px #bc6c25 solid;
   border-radius: 3px;
 }
 
@@ -722,7 +722,7 @@ legend {
   padding: 15px;
   text-align: center;
   display: block;
-  border: 3px #bc6c25 solid;
+  border: 2px #bc6c25 solid;
   border-radius: 3px;
 }
 
