@@ -57,8 +57,4 @@ function displayProphets(prophet) {
   document.querySelector("div.cards").appendChild(card);
 
 
-
-
-
-
 }
