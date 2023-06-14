@@ -194,7 +194,7 @@
   }
 
   .directory-grid section {
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
   }
 
   .directory-grid section h2 {

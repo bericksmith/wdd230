@@ -3,6 +3,7 @@
     {
         "name": "ABC Company",
         "address": "123 Main Street",
+        "zip": "98661",
         "phone": "123-456-7890",
         "website": "www.example.com",
         "imageurl": "images/logo1.jpg",
@@ -12,6 +13,7 @@
         {
         "name": "XYZ Corporation",
         "address": "456 Elm Avenue",
+        "zip": "98665",
         "phone": "987-654-3210",
         "website": "www.xyzcorp.com",
         "imageurl": "images/logo2.jpg",
@@ -21,6 +23,7 @@
         {
         "name": "123 Industries",
         "address": "789 Oak Road",
+        "zip": "98661",
         "phone": "456-789-0123",
         "website": "www.123industries.com",
         "imageurl": "images/logo3.jpg",
@@ -30,6 +33,7 @@
         {
         "name": "Acme Corporation",
         "address": "789 Maple Lane",
+        "zip": "98662",
         "phone": "012-345-6789",
         "website": "www.acmecorp.com",
         "imageurl": "images/logo4.jpg",
@@ -39,6 +43,7 @@
         {
         "name": "Global Solutions",
         "address": "567 Pine Street",
+        "zip": "98667",
         "phone": "890-123-4567",
         "website": "www.globalsolutions.com",
         "imageurl": "images/logo5.jpg",
@@ -48,6 +53,7 @@
         {
         "name": "Innovate Tech",
         "address": "234 Cedar Avenue",
+        "zip": "98666",
         "phone": "567-890-1234",
         "website": "www.innovatetech.com",
         "imageurl": "images/logo6.jpg",
@@ -57,6 +63,7 @@
         {
         "name": "Swift Services",
         "address": "890 Oak Street",
+        "zip": "98661",
         "phone": "234-567-8901",
         "website": "www.swiftservices.com",
         "imageurl": "images/logo7.jpg",
@@ -66,6 +73,7 @@
         {
         "name": "TechPro Solutions",
         "address": "345 Elm Road",
+        "zip": "98664",
         "phone": "678-901-2345",
         "website": "www.techprosolutions.com",
         "imageurl": "images/logo8.jpg",
@@ -75,6 +83,7 @@
         {
         "name": "Superior Systems",
         "address": "567 Maple Avenue",
+        "zip": "98663",
         "phone": "901-234-5678",
         "website": "www.superiorsystems.com",
         "imageurl": "images/logo9.jpg",
@@ -84,6 +93,7 @@
         {
         "name": "Proactive Solutions",
         "address": "789 Pine Lane",
+        "zip": "98668",
         "phone": "234-567-8901",
         "website": "www.proactivesolutions.com",
         "imageurl": "images/logo10.jpg",

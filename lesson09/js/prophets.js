@@ -13,7 +13,7 @@ getProphetData();
 function calculateAge(birthdate, deathdate) {
   const birth = new Date(birthdate);
   const death = deathdate ? new Date(deathdate) : new Date();
-  const age = Math.floor((death - birth) / (1000 * 60 * 60 * 24 * 365.25));
+  const age = Math.floor((death - birth) / (1000 * 60 * 60 * 24 * 365));
   return age;
 }
 
@@ -42,7 +42,7 @@ function displayProphets(prophet) {
   p3.textContent = `Age: ${age} ${ageText}`;
 
   portrait.setAttribute("src", prophet.imageurl);
-  portrait.setAttribute("alt",`Portait of ${prophet.name} ${prophet.lastname} - ${prophetOrder}} Latter-day President`);
+  portrait.setAttribute("alt",`Portrait of ${prophet.name} ${prophet.lastname} - ${prophetOrder}} Latter-day President`);
   portrait.setAttribute("loading", "lazy");
   portrait.setAttribute("width", "340");
   portrait.setAttribute("height", "390");
@@ -55,4 +55,38 @@ function displayProphets(prophet) {
   card.appendChild(portrait);
 
   document.querySelector("div.cards").appendChild(card);
+
+
+
+// buttons
+document.querySelector("#all").addEventListener("click", () => {
+	getProphets("all");
+});
+
+document.querySelector("#idaho").addEventListener("click", () => {
+	getProphets("idaho");
+});
+
+document.querySelector("#nonus").addEventListener("click", () => {
+	getProphets("nonus");
+});
+
+document.querySelector("#ten").addEventListener("click", () => {
+	getProphets("ten");
+});
+
+document.querySelector("#childs").addEventListener("click", () => {
+	getProphets("childs");
+});
+
+document.querySelector("#childl").addEventListener("click", () => {
+	getProphets("childl");
+});
+
+document.querySelector("#old").addEventListener("click", () => {
+	getProphets("old");
+});
+
+
+
 }

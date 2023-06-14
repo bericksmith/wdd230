@@ -95,7 +95,16 @@
 
 
   .directory-grid section {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 3fr 3fr 3fr;
+  }
+
+  .directory-grid img {
+    padding: 0px;
+    display: block;
+    margin: 5px auto;
+    width: 50px;
+    box-shadow: 5px 5px 10px #000000;
+    border-radius: 5px;
   }
 
   .panelview {
