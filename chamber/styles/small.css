@@ -652,11 +652,14 @@ legend {
   border-radius: 6px;
   color:#fff;
   font-weight: bold;
+  border: 2px #dda15e solid;
 }
 
 .directory-buttons button:focus {
   background-color: #dda15e;
   font-weight: bold;
+  color:#000;
+  border: 2px #bc6c25 solid;
 }
 
 #panel {
