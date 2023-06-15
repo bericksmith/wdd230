@@ -9,12 +9,15 @@ main {
 }
 
 header {
-    margin-top: 20px;
-    text-align: center;
-    color: #fff;
-    background-color: #007da5;
-    border: 1px solid #d9d9d9;
-    padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #007da5;
+  border: 1px solid #d9d9d9;
+  padding: 10px;
 }
 
 h1 {
@@ -26,9 +29,9 @@ h1 {
 }
 
 .cards section h2 {
-    color: #fff;
-    font-weight: 100;
-  }
+  color: #fff;
+  font-weight: 100;
+}
 
 .cards {
   display: grid;
@@ -53,10 +56,13 @@ h1 {
 }
 
 footer {
-    text-align: center;
-    color: #fff;
-    margin-bottom: 30px;
-    background-color: #007da5;
-    border: 1px solid #d9d9d9;
-    padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+  background-color: #007da5;
+  border: 1px solid #d9d9d9;
+  padding: 20px;
 }
