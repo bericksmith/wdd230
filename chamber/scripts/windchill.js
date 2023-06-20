@@ -6,7 +6,7 @@ const longitude = -122.6615
 function fetchChill(temp, speed) {
   const f = 35.74 + 0.6215 * temp - 35.75 * speed ** 0.16 + 0.4275 * temp * speed ** 0.16
     if (temp <= 50 && speed > 3) {
-    windchill= f.toFixed(1);
+    windchill= f.toFixed(1) + "°F";
     }
     else {
         windchill = "NA";
@@ -52,8 +52,9 @@ function displayWeatherData(data) {
     <span class="weather-temp">${temperatureFahrenheit.toFixed(1)}°F</span>
     <span class="weather-description">${capitalizedDescription}</span>
     <hr class="weather-description">
-    <span class="weather-speed"><strong>Wind Speed:</strong> ${windspeed}mph</span>
-    <span class="weather-chill"><strong>Wind chill:</strong> ${windchill}°F</span>
+    <span class="weather-speed"><strong>Wind Speed:</strong> ${windspeed} mph</span>
+    <span class="weather-chill"><strong>Wind chill:</strong> ${windchill}
+    <p class="small">Courtesy of: <a class="small" href="http://OpenWeatherMap.org">OpenWeatherMap.org</a></p></span>
   `;
 
   weatherInfoElement.innerHTML = htmlContent;

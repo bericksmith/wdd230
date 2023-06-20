@@ -111,6 +111,10 @@ footer {
   padding: 20px;
 }
 
+.small{
+  font-size: 12px;
+}
+
 footer a {
   font-size: 18px;
   color: #fff;
@@ -313,6 +317,7 @@ hr.weather-description {
 .weather-speed {
   grid-column: 1/3;
   font-size: 14px;
+  padding-bottom: 3px;
 }
 .weather-chill {
   grid-column: 1/3;

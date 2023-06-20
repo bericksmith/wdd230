@@ -27,7 +27,7 @@
         "phone": "456-789-0123",
         "website": "www.123industries.com",
         "imageurl": "images/logo3.jpg",
-        "membership": "Bronze",
+        "membership": "Gold",
         "slogan": "Innovation at its best"
         },
         {
@@ -37,7 +37,7 @@
         "phone": "012-345-6789",
         "website": "www.acmecorp.com",
         "imageurl": "images/logo4.jpg",
-        "membership": "Platinum",
+        "membership": "Bronze",
         "slogan": "Your success, our priority"
         },
         {
@@ -47,7 +47,7 @@
         "phone": "890-123-4567",
         "website": "www.globalsolutions.com",
         "imageurl": "images/logo5.jpg",
-        "membership": "Gold",
+        "membership": "Bronze",
         "slogan": "Empowering businesses worldwide"
         },
         {
@@ -57,7 +57,7 @@
         "phone": "567-890-1234",
         "website": "www.innovatetech.com",
         "imageurl": "images/logo6.jpg",
-        "membership": "Silver",
+        "membership": "Non-Profit",
         "slogan": "Transforming industries through technology"
         },
         {
@@ -77,7 +77,7 @@
         "phone": "678-901-2345",
         "website": "www.techprosolutions.com",
         "imageurl": "images/logo8.jpg",
-        "membership": "Platinum",
+        "membership": "Bronze",
         "slogan": "Driving innovation forward"
         },
         {
@@ -87,7 +87,7 @@
         "phone": "901-234-5678",
         "website": "www.superiorsystems.com",
         "imageurl": "images/logo9.jpg",
-        "membership": "Gold",
+        "membership": "Bronze",
         "slogan": "Excellence in every detail"
         },
         {
@@ -97,7 +97,7 @@
         "phone": "234-567-8901",
         "website": "www.proactivesolutions.com",
         "imageurl": "images/logo10.jpg",
-        "membership": "Silver",
+        "membership": "Non-Profit",
         "slogan": "Your success is our priority"
         }]
   }
