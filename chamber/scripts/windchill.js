@@ -50,8 +50,8 @@ function displayWeatherData(data) {
     <span class="weather-headline">${city} Weather</span>
     <img class="weather-img" alt="Weather icon" src="https://openweathermap.org/img/wn/${weatherIcon}@2x.png">
     <span class="weather-temp">${temperatureFahrenheit.toFixed(1)}°F</span>
-    <hr class="weather-description">
     <span class="weather-description">${capitalizedDescription}</span>
+    <hr class="weather-description">
     <span class="weather-speed"><strong>Wind Speed:</strong> ${windspeed}mph</span>
     <span class="weather-chill"><strong>Wind chill:</strong> ${windchill}°F</span>
   `;
