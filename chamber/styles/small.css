@@ -307,8 +307,13 @@ header div nav {
   font-size: 18px;
   font-weight: bold;
 }
-.weather-seven {
+.weather-speed {
   grid-column: 1/3;
+  font-size: 14px;
+}
+.weather-chill {
+  grid-column: 1/3;
+  font-size: 14px;
 }
 
 /* Events Section */
@@ -744,4 +749,29 @@ legend {
   width: 100px;
   box-shadow: 5px 5px 10px #000000;
   border-radius: 5px;
+}
+
+
+/*spotlight*/
+
+.spotlight img {
+  width: 40%;
+  margin: 0.5em;
+padding: 0.1em;
+background: linear-gradient(rgba(65, 145, 138, 0.301), rgba(10, 49, 78, 0.39));
+border-radius: 0.5em;
+}
+.spotlight h3 {
+  margin: 0.3em;
+  color:rgb(6, 175, 253)
+}
+.spotinfo {
+font-size: 0.8em;
+margin: 0;
+padding: 0.5em;
+}
+.spotinfo div {
+  padding-bottom: 0.4em;
+  letter-spacing: 0.1em;
+  font-style:italic;
 }

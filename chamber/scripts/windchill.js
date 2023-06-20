@@ -1,19 +1,20 @@
-//const speed = parseFloat(document.querySelector("#speed").textContent);
-//const temp = parseFloat(document.querySelector("#tempurature").textContent);
-//const f = 35.74 + 0.6215 * temp - 35.75 * speed ** 0.16 + 0.4275 * temp * speed ** 0.16
-//if (temp <= 50 && speed > 3) {
-//windchill= f.toFixed(1);
-//}
-//else {
-//    windchill = "NA";
-//}
-//document.getElementById("windchill").innerHTML = windchill;
-
-
-
 const apiKey = 'bb06f83ae63888ef53975084692c8460';
 const latitude = 45.6387;
 const longitude = -122.6615
+
+
+function fetchChill(temp, speed) {
+  const f = 35.74 + 0.6215 * temp - 35.75 * speed ** 0.16 + 0.4275 * temp * speed ** 0.16
+    if (temp <= 50 && speed > 3) {
+    windchill= f.toFixed(1);
+    }
+    else {
+        windchill = "NA";
+    }
+  
+    return windchill;
+}
+
 
 function fetchWeatherData(city) {
   const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=imperial&appid=${apiKey}`;
@@ -43,6 +44,7 @@ function displayWeatherData(data) {
   });
   const capitalizedDescription = capitalizedWords.join(" ");
 
+  fetchChill(temperatureFahrenheit, windspeed);
 
   const htmlContent = `
     <span class="weather-headline">${city} Weather</span>
@@ -50,7 +52,8 @@ function displayWeatherData(data) {
     <span class="weather-temp">${temperatureFahrenheit.toFixed(1)}°F</span>
     <hr class="weather-description">
     <span class="weather-description">${capitalizedDescription}</span>
-    <span class="weather-seven">Wind Speed: ${windspeed}mph</span>
+    <span class="weather-speed"><strong>Wind Speed:</strong> ${windspeed}mph</span>
+    <span class="weather-chill"><strong>Wind chill:</strong> ${windchill}°F</span>
   `;
 
   weatherInfoElement.innerHTML = htmlContent;
