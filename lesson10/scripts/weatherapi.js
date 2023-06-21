@@ -24,7 +24,7 @@ async function apiFetch() {
 function displayResults(weatherData) {
   const weatherInfoElement = document.getElementById('weather-info');
   const temp = weatherData.main.temp.toFixed(0);
-  const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@4x.png`;
+  const iconsrc = weatherData.weather[0].icon;
   const desc = weatherData.weather[0].description;
   //currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
   //weatherIcon.setAttribute("src", iconsrc);
@@ -35,7 +35,7 @@ function displayResults(weatherData) {
     <p>The current temperature in Fairbanks, Alaska is <strong>${temp}°F</strong></p>
     <h2>Current Condition</h2>
     <figure>
-      <img class="weather-img" alt="Weather icon" src="${iconsrc}">
+      <img class="weather-img" alt="Weather icon" src="https://openweathermap.org/img/wn/${iconsrc}@2x.png">
       <img src="" alt="" id="weather-icon">
       <figcaption>${desc}</figcaption>
     </figure>
