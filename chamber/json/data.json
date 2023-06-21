@@ -1,103 +1,94 @@
 {
-"businesses": [
-    {
-        "name": "ABC Company",
-        "address": "123 Main Street",
-        "zip": "98661",
-        "phone": "123-456-7890",
-        "website": "www.example.com",
-        "imageurl": "images/logo1.jpg",
-        "membership": "Gold",
-        "slogan": "Delivering excellence"
+    "businesses": [
+        {
+            "name": "ABC Company",
+            "address": "123 Main Street",
+            "phone": "360-555-1234",
+            "website": "https://www.abccompany.com",
+            "imageurl": "images/logo1.jpg",
+            "membership": "gold",
+            "slogan": "Delivering excellence since 1990"
         },
         {
-        "name": "XYZ Corporation",
-        "address": "456 Elm Avenue",
-        "zip": "98665",
-        "phone": "987-654-3210",
-        "website": "www.xyzcorp.com",
-        "imageurl": "images/logo2.jpg",
-        "membership": "Silver",
-        "slogan": "Quality you can trust"
+            "name": "XYZ Corporation",
+            "address": "456 Elm Avenue",
+            "phone": "360-555-5678",
+            "website": "https://www.xyzcorp.com",
+            "imageurl": "images/logo2.jpg",
+            "membership": "silver",
+            "slogan": "Innovating for a better future"
         },
         {
-        "name": "123 Industries",
-        "address": "789 Oak Road",
-        "zip": "98661",
-        "phone": "456-789-0123",
-        "website": "www.123industries.com",
-        "imageurl": "images/logo3.jpg",
-        "membership": "Gold",
-        "slogan": "Innovation at its best"
+            "name": "PQR Industries",
+            "address": "789 Oak Street",
+            "phone": "360-555-9012",
+            "website": "https://www.pqri.com",
+            "imageurl": "images/logo3.jpg",
+            "membership": "bronze",
+            "slogan": "Engineering solutions that matter"
         },
         {
-        "name": "Acme Corporation",
-        "address": "789 Maple Lane",
-        "zip": "98662",
-        "phone": "012-345-6789",
-        "website": "www.acmecorp.com",
-        "imageurl": "images/logo4.jpg",
-        "membership": "Bronze",
-        "slogan": "Your success, our priority"
+            "name": "LMN Enterprises",
+            "address": "321 Pine Lane",
+            "phone": "360-555-3456",
+            "website": "https://www.lmnenterprises.com",
+            "imageurl": "images/logo4.jpg",
+            "membership": "non-profit",
+            "slogan": "Your partner for success"
         },
         {
-        "name": "Global Solutions",
-        "address": "567 Pine Street",
-        "zip": "98667",
-        "phone": "890-123-4567",
-        "website": "www.globalsolutions.com",
-        "imageurl": "images/logo5.jpg",
-        "membership": "Bronze",
-        "slogan": "Empowering businesses worldwide"
+            "name": "DEF Corporation",
+            "address": "654 Cedar Road",
+            "phone": "360-555-7890",
+            "website": "https://www.defcorp.com",
+            "imageurl": "images/logo5.jpg",
+            "membership": "gold",
+            "slogan": "Empowering businesses worldwide"
         },
         {
-        "name": "Innovate Tech",
-        "address": "234 Cedar Avenue",
-        "zip": "98666",
-        "phone": "567-890-1234",
-        "website": "www.innovatetech.com",
-        "imageurl": "images/logo6.jpg",
-        "membership": "Non-Profit",
-        "slogan": "Transforming industries through technology"
+            "name": "GHI Solutions",
+            "address": "987 Maple Street",
+            "phone": "360-555-2345",
+            "website": "https://www.ghisolutions.com",
+            "imageurl": "images/logo6.jpg",
+            "membership": "silver",
+            "slogan": "Driving innovation for a connected world"
         },
         {
-        "name": "Swift Services",
-        "address": "890 Oak Street",
-        "zip": "98661",
-        "phone": "234-567-8901",
-        "website": "www.swiftservices.com",
-        "imageurl": "images/logo7.jpg",
-        "membership": "Bronze",
-        "slogan": "Reliable and efficient solutions"
+            "name": "JKL Industries",
+            "address": "456 Oak Lane",
+            "phone": "360-555-6789",
+            "website": "https://www.jklindustries.com",
+            "imageurl": "images/logo7.jpg",
+            "membership": "bronze",
+            "slogan": "Quality products for every need"
         },
         {
-        "name": "TechPro Solutions",
-        "address": "345 Elm Road",
-        "zip": "98664",
-        "phone": "678-901-2345",
-        "website": "www.techprosolutions.com",
-        "imageurl": "images/logo8.jpg",
-        "membership": "Bronze",
-        "slogan": "Driving innovation forward"
+            "name": "MNO Enterprises",
+            "address": "789 Elm Street",
+            "phone": "360-555-0123",
+            "website": "https://www.mnoenterprises.com",
+            "imageurl": "images/logo8.jpg",
+            "membership": "non-profit",
+            "slogan": "Innovate. Collaborate. Succeed."
         },
         {
-        "name": "Superior Systems",
-        "address": "567 Maple Avenue",
-        "zip": "98663",
-        "phone": "901-234-5678",
-        "website": "www.superiorsystems.com",
-        "imageurl": "images/logo9.jpg",
-        "membership": "Bronze",
-        "slogan": "Excellence in every detail"
+            "name": "RST Corporation",
+            "address": "123 Cedar Lane",
+            "phone": "360-555-4567",
+            "website": "https://www.rstcorp.com",
+            "imageurl": "images/logo9.jpg",
+            "membership": "gold",
+            "slogan": "Transforming industries with technology"
         },
         {
-        "name": "Proactive Solutions",
-        "address": "789 Pine Lane",
-        "zip": "98668",
-        "phone": "234-567-8901",
-        "website": "www.proactivesolutions.com",
-        "imageurl": "images/logo10.jpg",
-        "membership": "Non-Profit",
-        "slogan": "Your success is our priority"
-        }]
-  }
+            "name": "UVW Company",
+            "address": "987 Pine Avenue",
+            "phone": "360-555-8901",
+            "website": "https://www.uvwcompany.com",
+            "imageurl": "images/logo10.jpg",
+            "membership": "silver",
+            "slogan": "Leading with passion and purpose"
+        }
+    ]
+}
