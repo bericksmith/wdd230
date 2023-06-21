@@ -50,10 +50,61 @@
         
               
     </header>
-    <main class="contact">
-       
+    <main class="contact-main">
+        <h1 class="title">Contact</h1>
+        
+        <div class="join-lft">
+            <div class="contact-card">
+                <div>
+                <h3>Vancouver Chamber<br>Contact Information</h3>
+                <hr>
+                <dl>
+                    <dt>Office Hours</dt>
+                    <dd>
+                    <div class="contact-dd-center">
+                        <div>Mon - Fri</div>
+                        <div>9AM - 5PM</div>
+                    </div>
+                    </dd>
+
+                    <hr>
+
+                    <dt>Address</dt>
+                    <dd>123 Main St.<br>Vancouver, WA 98661</dd>
+
+                    <hr>
+
+                    <dt>Email</dt>
+                    <dd>bericksmith@gmail.com</dd>
+
+                    <hr>
+
+                    <dt>Phone</dt>
+                    <dd>1 (360) 867-5309</dd>
 
 
+
+
+                </dl>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <form action="thankyou.html" method="get">
+                <h2>Ask a Question</h2>
+                <p>Please fill in this form to submit a question.</p>
+                <hr>
+        
+                <label class="top">First name* <input type="text" name="fname" required></label>
+                <label class="top">Email* <input type="email" placeholder="someone@gmail.com" name="email" required></label>
+                <label class="top">Question<br><textarea name="question" rows="4"></textarea></label>
+                <input type="hidden" id="formDateTime" name="formDateTime" value="">
+    
+                <input type="submit" class="submitBtn" value="Ask a Question">
+              </form> 
+    
+        </div>
 
 
 
@@ -76,7 +127,6 @@
                         &copy;<span id="copyright"></span>  Vancouver Washington Chamber of Commerce&nbsp;&nbsp;|&nbsp;&nbsp;Berick Smith&nbsp;&nbsp;|&nbsp;&nbsp;WDD 230 Project&nbsp;&nbsp;|&nbsp;&nbsp;Last modification: <span id="dateModified"></span>
                 </div>            
             </footer>
-            <script src="scripts/directory.js"></script> 
             <script src="scripts/script.js"></script>      
         </body>
         </html>

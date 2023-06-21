@@ -205,6 +205,11 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.contact-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 
 }
 
