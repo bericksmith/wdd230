@@ -24,7 +24,7 @@ async function apiFetch() {
 function displayResults(weatherData) {
   const weatherInfoElement = document.getElementById('weather-info');
   const temp = weatherData.main.temp.toFixed(0);
-  const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+  const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@4x.png`;
   const desc = weatherData.weather[0].description;
   //currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
   //weatherIcon.setAttribute("src", iconsrc);
