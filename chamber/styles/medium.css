@@ -219,7 +219,10 @@ div.board {
   flex-direction: row;
 }
 
-
+div.board figure picture img{
+  height: 275px;
+  width: 205px;
+}
 }
 
 
