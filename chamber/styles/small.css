@@ -836,6 +836,11 @@ div figure.board-card {
   margin: 0;
 }
 
+.boardmembers {
+  border-radius: 5px; 
+  border: 2px solid rgba(96, 108, 56, 0.4);
+}
+
 .italic {
   font-style: italic;
 }
@@ -854,6 +859,7 @@ div figure.board-card {
   height: 60px;
   border-radius: 5px;
   border: 2px solid rgba(96, 108, 56, 0.4);
+  box-shadow: 3px 3px 6px #5e5e5e;
   margin: 8px;
 }
 
@@ -864,5 +870,11 @@ font-size: 14px;
 margin: 0;
 font-style:italic;
 font-weight: bold;
+}
+
+
+div.board figure picture img{
+  height: 400px;
+  width: 300px;
 }
 
