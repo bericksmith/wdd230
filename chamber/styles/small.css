@@ -417,6 +417,11 @@ aside {
 
 .discover-left {
   display: none;
+  background-color: rgba(96, 108, 56, 0.5);
+  border: 2px solid #bbbbbb;
+  padding: 10px;
+
+
 }
 
 .discover picture img {
@@ -852,7 +857,13 @@ div figure.board-card {
 .bold {
   font-weight: bold;
 }
-
+.spotlight {
+  border-radius: 5px;
+  background-color: #fff;
+  border: 2px solid #bbbbbb;
+  margin: 0px 0px 15px 0px;
+  text-align: center;
+}
 
 .spotlightImg {
   width: 60px;
