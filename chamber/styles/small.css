@@ -729,7 +729,7 @@ legend {
   grid-template-columns: 2fr 1fr;
   padding: 20px;
   margin: 12px;
-  background-color: #dda15e;
+  background-color: rgba(221, 161, 94, 0.7);
   border: 2px #bc6c25 solid;
   border-radius: 3px;
 }
