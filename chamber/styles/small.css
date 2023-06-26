@@ -697,7 +697,7 @@ legend {
 }
 
 .directory-buttons button:focus {
-  background-color: #dda15e;
+  background-color: rgba(221, 161, 94, 0.7);
   font-weight: bold;
   color:#000;
   border: 2px #bc6c25 solid;
