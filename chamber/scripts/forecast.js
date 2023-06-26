@@ -45,7 +45,7 @@ fetch(APIurl)
 
       const weatherIconSpan = document.createElement('span');
       let weatherIcon = forecast.weather[0].icon;
-      weatherIconSpan.innerHTML = `<img class="weather-forcast-img" alt="Weather icon" src="https://openweathermap.org/img/wn/${weatherIcon}.png">`;
+      weatherIconSpan.innerHTML = `<img class="weather-forcast-img" alt="Weather icon" src="https://openweathermap.org/img/w/${weatherIcon}.png">`;
       forecastCard.appendChild(weatherIconSpan);
 
       forecastGrid.appendChild(forecastCard);
