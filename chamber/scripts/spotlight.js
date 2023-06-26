@@ -53,7 +53,7 @@ fetch(requestURL)
     pSpotinfo.classList.add('spotinfo');
 
     a.textContent = "website";
-    a.setAttribute('href', "https://www.byui.edu/");
+    a.setAttribute('href', "#");
   
     pSpotinfo.appendChild(a);
 

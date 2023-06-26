@@ -52,7 +52,7 @@ function displayHighlight(business, elementID) {
 
   const a = document.createElement('a');
   a.textContent = 'website';
-  a.setAttribute('href', business.website);
+  a.setAttribute('href', '#');
   pSpotinfo.appendChild(a);
 
   const spotlightContainer = document.querySelector(elementID);

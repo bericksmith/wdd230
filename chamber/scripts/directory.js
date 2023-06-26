@@ -30,7 +30,7 @@ fetch(requestURL)
     p2.textContent = business.phone;
 
     a.textContent = business.website;
-    a.setAttribute('href', 'http://' + business.website); 
+    a.setAttribute('href', '#'); 
   
     card.appendChild(iconImg);
     card.appendChild(h2);
