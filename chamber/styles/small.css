@@ -234,6 +234,9 @@ header div nav ul.open {
 
 #hamburgerBtn span:nth-child(1) {
   display: block;
+  color: #fff;
+  background-color: #283618;
+  border-radius: 4px;
   width: 48px;
   height: 48px;
 }
@@ -246,6 +249,9 @@ header div nav ul.open {
 }
 #hamburgerBtn.open span:nth-child(2) {
   display: block;
+  color: #fff;
+  background-color: #283618;
+  border-radius: 4px;
   width: 48px;
   height: 48px;
 }

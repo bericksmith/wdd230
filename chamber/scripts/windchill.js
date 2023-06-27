@@ -54,7 +54,7 @@ function displayWeatherData(data) {
     <hr class="weather-description">
     <span class="weather-speed"><strong>Wind Speed:</strong> ${windspeed} mph</span>
     <span class="weather-chill"><strong>Wind chill:</strong> ${windchill}
-    <p class="small">Courtesy of: <a class="small" href="http://OpenWeatherMap.org">OpenWeatherMap.org</a></p></span>
+    <p class="small">Courtesy of: <a class="small" href="https://OpenWeatherMap.org">OpenWeatherMap.org</a></p></span>
   `;
 
   weatherInfoElement.innerHTML = htmlContent;
