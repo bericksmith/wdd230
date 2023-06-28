@@ -604,8 +604,7 @@ picture.test {
 form label.top,
 form div {
   display: block;
-  padding-top: 1rem;
-  font-size: 0.8rem;
+  padding-top: 16px;
   font-size: 16px;
   font-weight: bold;
 }
@@ -614,7 +613,7 @@ form label.top input {
   display: block;
   border: solid 1px #999;
   border-radius: 4px;
-  padding: 0.75rem;
+  padding: 12px;
   color: #555;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.1);
@@ -622,18 +621,18 @@ form label.top input {
 
 form label.sbs {
   display: block;
-  padding: 0.75rem 0;
+  padding: 15px 0;
   color: #000;
 }
 
 form input.submitBtn {
   border: none;
   background-color: #bc6c25;
-  color: white;
+  color: #000;
   font-weight: bold;
   border-radius: 6px;
-  padding: 1.5rem 1.5rem;
-  margin: 20px 0 2rem 0;
+  padding: 22px 22px;
+  margin: 20px 0 30px 0;
   width: 100%;
   cursor: pointer;
 }
