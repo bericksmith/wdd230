@@ -1,3 +1,5 @@
+/* Global variables */
+
 :root {
   --primary-color: #283618;
   --secondary-color: #606c38;
@@ -35,23 +37,27 @@ h4 {
   font-family: var(--heading-font);
 }
 
+.small {
+  font-size: 12px;
+}
+
 p {
   padding: 5px;
   font-size: 14px;
   line-height: 20px;
 }
 
-p.medium{
+p.medium {
   font-size: 16px;
   font-weight: bold;
 }
 
-p.large{
+p.large {
   font-size: 18px;
   font-weight: bold;
 }
 
-p.xlarge{
+p.xlarge {
   font-size: 22px;
   font-weight: bold;
 }
@@ -59,6 +65,15 @@ p.xlarge{
 .logo {
   width: 100px;
   height: 65px;
+}
+
+header,
+nav,
+main,
+footer {
+  max-width: 1200px;
+  min-width: 350px;
+  margin: 0 auto;
 }
 
 header {
@@ -90,10 +105,6 @@ header div #datetime {
   font-size: 14px;
 }
 
-.date-hdr {
-  grid-column: 1/4;
-}
-
 a {
   font-size: 18px;
   color: #283618;
@@ -116,6 +127,10 @@ li {
   padding-bottom: 5px;
 }
 
+.date-hdr {
+  grid-column: 1/4;
+}
+
 footer {
   background-color: var(--primary-color);
   display: flex;
@@ -127,24 +142,11 @@ footer {
   padding: 20px;
 }
 
-.small{
-  font-size: 12px;
-}
-
 footer a {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
   text-decoration: none;
-}
-
-header,
-nav,
-main,
-footer {
-  max-width: 1200px;
-  min-width: 350px;
-  margin: 0 auto;
 }
 
 #chambermeet {
@@ -177,6 +179,32 @@ h2 {
 
 .vanCC-name {
   padding: 10px 10px;
+}
+
+.name-footer h2 {
+  color: #fff;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.name-footer p {
+  color: #fff;
+  padding: 0px;
+  text-align: center;
+}
+
+.foot-hr {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.otherinfo {
+  text-align: center;
+}
+
+.sociallogo {
+  width: 48px;
+  margin: 5px;
 }
 
 header div a {
@@ -228,7 +256,7 @@ header div nav ul.open {
   display: block;
 }
 
-.hamburger{
+.hamburger {
   font-size: 45px;
 }
 
@@ -303,6 +331,7 @@ header div nav {
 }
 
 /* Weather Section */
+
 #weather-info {
   margin: 0;
   padding: 0px;
@@ -394,6 +423,8 @@ aside {
   text-decoration: none;
 }
 
+/* Spotlights */
+
 #spotlight1,
 #spotlight2,
 #spotlight4,
@@ -425,6 +456,8 @@ aside {
   font-size: 14px;
 }
 
+/* Discover Page */
+
 .discover {
   display: grid;
   align-items: start;
@@ -435,8 +468,6 @@ aside {
   background-color: rgba(96, 108, 56, 0.5);
   border: 2px solid #bbbbbb;
   padding: 10px;
-
-
 }
 
 .discover picture img {
@@ -449,33 +480,7 @@ aside {
   border: 1px solid #858585;
 }
 
-.name-footer h2 {
-  color: #fff;
-  padding: 10px 0px;
-  text-align: center;
-}
-
-.name-footer p {
-  color: #fff;
-  padding: 0px;
-  text-align: center;
-}
-
-.foot-hr {
-  width: 100%;
-  padding: 20px 0px;
-}
-
-.otherinfo {
-  text-align: center;
-}
-
-.sociallogo {
-  width: 48px;
-  margin: 5px;
-}
-
-/* week 6 images */
+/* week 6 images assignment*/
 main picture.test img {
   width: 100%;
 }
@@ -498,6 +503,7 @@ picture.test {
 }
 /* end week 6 images */
 
+/* Index Page Hero Image and CTA */
 .hero {
   position: relative;
   padding: 0px;
@@ -544,6 +550,8 @@ picture.test {
   font-weight: bold;
 }
 
+/* Join Page */
+
 .join-us {
   width: 100%;
   padding: 12px;
@@ -583,7 +591,7 @@ picture.test {
   border: #555 2px solid;
 }
 
-/* form */
+/* Join form */
 
 .form-container form {
   padding: 16px;
@@ -660,6 +668,17 @@ legend {
   accent-color: #bc6c25;
 }
 
+.forecast-grid {
+  display: none;
+}
+
+.thankyou {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* Last Visit Assignment */
+
 .last-visit {
   grid-column: 1/4;
   max-width: 1200px;
@@ -675,15 +694,6 @@ legend {
 .visitInfo {
   font-weight: bold;
   font-size: 16px;
-}
-
-.forecast-grid {
-  display: none;
-}
-
-.thankyou {
-  display: grid;
-  grid-template-columns: 1fr;
 }
 
 /*directory page*/
@@ -706,7 +716,7 @@ legend {
   background-color: #283618;
   margin: -30px 15px 20px 15px;
   border-radius: 6px;
-  color:#fff;
+  color: #fff;
   font-weight: bold;
   border: 2px #777777 solid;
 }
@@ -714,7 +724,7 @@ legend {
 .directory-buttons button:focus {
   background-color: rgba(221, 161, 94, 0.7);
   font-weight: bold;
-  color:#000;
+  color: #000;
   border: 2px #bc6c25 solid;
 }
 
@@ -768,7 +778,7 @@ legend {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
-  color:#fff;
+  color: #fff;
   text-shadow: 1px 1px #000;
 }
 
@@ -800,48 +810,44 @@ legend {
   grid-template-columns: 1fr;
   align-items: start;
 }
-.contact-card
-{
-    max-width: 400px;
-    margin: auto auto;
-    background-color: rgba(96, 108, 56, 0.2);
-    border: 2px solid #bbbbbb;
+.contact-card {
+  max-width: 400px;
+  margin: auto auto;
+  background-color: rgba(96, 108, 56, 0.2);
+  border: 2px solid #bbbbbb;
 }
 
-.contact-card div
-{
-    margin: 10px;
-    padding: 15px 15px;
+.contact-card div {
+  margin: 10px;
+  padding: 15px 15px;
 }
 
-.contact-card h3{
+.contact-card h3 {
   text-align: center;
   padding-bottom: 10px;
 }
 
-.contact-card .contact-dd-center{
-    background: none;
-    margin: 0;
-    padding: 0;
+.contact-card .contact-dd-center {
+  background: none;
+  margin: 0;
+  padding: 0;
 }
 
-.contact-card .contact-dd-center div{
-    margin: 0;
-    margin-bottom: 5px;
-    padding: 0;
-    background: none;
+.contact-card .contact-dd-center div {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  background: none;
 }
 
-.contact-card dl dt
-{
-padding: 7px;
-font-weight: bold;
+.contact-card dl dt {
+  padding: 7px;
+  font-weight: bold;
 }
 
-.contact-card dl dd
-{
-margin-bottom: 16px;
-margin-left: 7px;
+.contact-card dl dd {
+  margin-bottom: 16px;
+  margin-left: 7px;
 }
 
 div.board {
@@ -857,7 +863,7 @@ div figure.board-card {
 }
 
 .boardmembers {
-  border-radius: 5px; 
+  border-radius: 5px;
   border: 2px solid rgba(96, 108, 56, 0.4);
 }
 
@@ -865,7 +871,7 @@ div figure.board-card {
   font-style: italic;
 }
 
-.textcenter{
+.textcenter {
   text-align: center;
 }
 
@@ -889,17 +895,14 @@ div figure.board-card {
   margin: 8px;
 }
 
-
-
 .spotinfo {
-font-size: 14px;
-margin: 0;
-font-style:italic;
-font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
 }
 
-
-div.board figure picture img{
+div.board figure picture img {
   height: 400px;
   width: 300px;
 }
@@ -907,4 +910,3 @@ div.board figure picture img{
 .discovertext {
   line-height: 25px;
 }
-
