@@ -1,6 +1,5 @@
 const today = new Date().getDay();
 
-// Copyright and date modified
 try {
   let options = {
     year: "numeric",
