@@ -180,6 +180,7 @@ header div nav ul li{
 
 .about{
   border-top: 5px solid yellow;
+  margin: 0px 5px;
 }
 
 .about a:hover{
@@ -192,7 +193,7 @@ header div nav ul li a {
   padding: 0.8rem 2vw;
   text-decoration: none;
   color: #000;
-  font-size: 1.2rem;
+  font-size: 18px;
   margin: 0;
   text-align: center;
 }
