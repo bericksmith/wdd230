@@ -20,8 +20,22 @@
     </head>
 <body>
   <header>
-    <!-- Navigation and business contact information -->
-  </header>
+    <div>
+        <img class="logo" src="images/bountiful-logo-180x100.png" alt="Bountiful Foods Logo">
+    </div>
+    <div class="menu">
+        <nav>
+            <ul id="primaryNav">
+                <li class="home bold"><a href="index.html">Home</a></li>
+                <li class="fresh bold"><a href="fresh.html">Fresh</a></li>
+                <li class="about bold"><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="weather">                    
+        <div id="weather-info"></div>
+    </div>
+</header>
 
   <main>
     <h1>Build Your Own Specialty Drink</h1>
@@ -35,9 +49,26 @@
   </main>
 
   <footer>
-    <!-- Footer content and JavaScript to display last modified date -->
-  </footer>
+    <div class="info">
+        <div>
+            Bountiful Foods<br>
+            1234 Tester Ave.<br>
+            Tersterville, CA<br>
+            info@bountifulfoods.com
+        </div>
 
-  <!-- JavaScript to handle form submission and calculate nutritional information -->
+        <div class="social">
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram_logo.png" alt="Instagram" class="sociallogo"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook_logo.png" alt="Facebook" class="sociallogo"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter_logo.png" alt="LinkedIn" class="sociallogo"></a>
+        </div>
+    </div>
+    <div class="otherinfo">  
+        &copy;<span id="copyright"></span>  Bountiful Foods&nbsp;&nbsp;|&nbsp;&nbsp;Berick Smith&nbsp;&nbsp;|&nbsp;&nbsp;Last modification: <span id="dateModified"></span>
+    </div> 
+</footer>
+
+<script src="scripts/weather.js"></script>
+
 </body>
 </html>

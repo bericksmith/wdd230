@@ -1,21 +1,6 @@
 :root {
-  --primary-color: #139447;
-  --secondary-color: #606c38;
-  --accent1-color: #bc6c25;
-  --accent2-color: #dda15e;
-
   --heading-font: "Open Sans", Arial, Helvetica, sans-serif;
   --paragraph-font: Arial, Helvetica, sans-serif;
-
-  --headline-color-on-white: #000; /* headlines on a white background */
-  --headline-color-on-color: #fff; /* headlines on a colored background */
-  --paragraph-color-on-white: #000; /* paragraph text on a white background */
-  --paragraph-color-on-color: #fff; /* paragraph text on a colored background */
-  --paragraph-background-color: #283618;
-  --nav-link-color: #fff;
-  --nav-background-color: #606c38;
-  --nav-hover-link-color: #fff;
-  --nav-hover-background-color: #bc6c25;
 }
 
 * {
@@ -134,13 +119,13 @@ header {
 
 a {
   font-size: 18px;
-  color: #283618;
+  color: green;
   cursor: pointer;
   text-decoration: none;
 }
 
 a:hover {
-  color: #bc6c25;
+  color: orangered;
   cursor: pointer;
   text-decoration: none;
 }
@@ -190,11 +175,11 @@ header div nav ul li{
 
 header div nav ul li a {
   display: block;
-  padding: 0.8rem 2vw;
+  padding: 12px 2vw;
   text-decoration: none;
   color: #000;
   font-size: 18px;
-  margin: 0;
+  margin: 0px 0px 5px 0px;
   text-align: center;
 }
 
@@ -213,7 +198,7 @@ header div nav ul li a:hover {
   position: relative;
   padding: 0px;
   margin: 0px;
-  margin-bottom: -4px;
+  margin-bottom: -5px;
 }
 
 .hero img {
@@ -285,7 +270,7 @@ header div nav ul li a:hover {
   padding: 5px;
   border: 1px solid #c9c9c9;
   border-radius: 4px;
-  width: 175px;
+  width: 195px;
 }
 
 .weather-headline {
@@ -299,8 +284,8 @@ header div nav ul li a:hover {
 
 .weather-img {
   float: left;
-  filter: drop-shadow(6px 6px 6px rgb(124, 124, 124));
-  padding:10px;
+  filter: drop-shadow(3px 3px 3px rgb(124, 124, 124));
+  padding:5px 0px 15px 0px;
 }
 
 .weather-forecast-img {
@@ -363,10 +348,10 @@ footer a {
 }
 
 .info{
-  display:flex;
-  flex-direction: row;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 25px;
+  width: 100%;
 }
 
 .headline {
@@ -378,6 +363,7 @@ footer a {
 .bountiful-title {
   padding: 10px 10px;
 }
+
 
 /* Trucks */
 
@@ -431,9 +417,36 @@ footer a {
 
 .sociallogo{}
 
-.social{}
+.social{
+  text-align: right;
+}
+
+.companyinfo{
+  text-align: center;
+}
 
 .drinkcount{
+  text-align: center;
+}
 
+.customdrinkbtn {
+  margin: 20px 0px;
+  padding: 25px;
+  min-width: 100px;
+  width: 100%;
+  background-color: orange;
+  border: 4px solid #fff;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 1px 1px 1px 1px rgba(169, 169, 169, 0.8);
+}
+
+.customdrinkbtn:hover {
+  background-color: rgba(0,0,0,.6);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  
 }
 
