@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Bountiful Foods">
+        <meta property="og:image" content="https://bericksmith.github.io/wdd230/bountiful/images/bountiful.jpg">
+        <meta property="og:url" content="https://bericksmith.github.io/wdd230/bountiful">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Berick Smith">
+        <meta name="description" content="">
+        <title>Bountiful Foods</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="icon" href="favicon.ico">
+        <link type="text/css" rel="stylesheet" href="styles/small.css">
+        <link type="text/css" rel="stylesheet" href="styles/medium.css">
+        <link type="text/css" rel="stylesheet" href="styles/large.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <img class="logo" src="images/bountiful-logo-180x100.png" alt="Bountiful Foods Logo">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul id="primaryNav">
+                        <li class="home bold"><a href="index.html">Home</a></li>
+                        <li class="fresh bold"><a href="fresh.html">Fresh</a></li>
+                        <li class="about bold"><a href="about.html">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="weather">                    
+                <div id="weather-info"></div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="hero">
+                <h1 class="hero-banner">Welcome to Bountiful Foods</h1>
+                <h2 class="hero-banner-sub italic green">Indulge in fresh organic goodness today!</h2>
+                <form action="fresh.html"><button class="call-to-action" type="submit">Make Your Own Drink</button></form>
+                <img src="images/hero-1200x300.jpg" alt="Bountiful Foods">
+            </div>
+            <div class="maincontainer">
+                <div class="intro">
+                    <p class="xlarge">Your Source for Fresh, Organic, Fruits and Produce!</p>
+
+                    <p>At Bountiful Foods, we're passionate about bringing you the best of nature's bounty in a way that supports your health and nourishes your body. As a small business nestled in the heart of Carlsbad, California, we specialize in offering a wide range of organic, locally grown foods that will tantalize your taste buds and leave you feeling energized.</p>
+
+                    <img class="img left purple" src="images/juices.jpg" alt="Custom Drinks" loading="lazy">
+
+                    <p>With our fleet of food trucks, we cover the coastal area from the vibrant streets of Los Angeles to the sun-soaked shores of San Diego. We believe that everyone deserves access to fresh and nutritious food, whether you're a local resident or a tourist exploring our beautiful coastal areas.</p>
+
+                    <p>Our commitment to quality starts with sourcing our fruits and produce directly from the hardworking farmers in our local community. We take pride in supporting these farmers and showcasing their incredible harvests, ensuring that you receive the freshest and most flavorful ingredients available. To complement our local offerings, we also work with select national and international suppliers who share our dedication to sustainable and ethical farming practices.</p>
+
+                    <p>Convenience is at the heart of what we do. If you're in the Carlsbad area, we invite you to visit our storefront and experience the joy of browsing through a wide array of fresh produce and wholesome food options. Our friendly team is always ready to assist you and provide personalized recommendations based on your preferences.</p>
+
+                    <img class="img right orange" src="images/smoothies.jpg" alt="Smoothies" loading="lazy">
+
+                    <p>For those on the go, our food trucks are a convenient oasis of organic goodness. Grab a delicious made-to-order fruit drink or a refreshing fruit bag packed with the season's finest offerings. We're here to cater to your needs and provide you with a healthy and delicious meal, wherever you may be along the coast.</p>
+
+                    <p>But that's not all. We understand that life can be hectic, so we offer delivery services for your convenience. Simply give us a call or visit our user-friendly website to place your order. Whether you're in the mood for a vibrant fruit salad, a nourishing smoothie, or a basket of hand-picked goodies, we'll bring it right to your doorstep, ensuring you never have to compromise on quality or taste.</p>
+
+                    <p>At Bountiful Foods, we're on a mission to make healthy eating a breeze. We believe that organic bounty should be accessible to all, and we're committed to serving the local population and the visitors who grace our coastal areas with the finest, freshest, and most nourishing foods available.</p>
+                    
+                    <img class="img left red" src="images/produce.jpg" alt="Organic Produce" loading="lazy">
+                    
+                    <p>Explore our website, get inspired by our delicious offerings, and join us in embracing a lifestyle of wellness and vitality. Your body deserves the best, and we're here to make sure you enjoy every bite along the way.
+
+                    <p>Indulge in the goodness of Bountiful Foods today!</p>
+
+
+                    <div>Three Day Carlsbad Forecast</div>
+                    <div>
+                        <div class="forecast-grid" id="forecast-grid"></div>
+                    </div>
+
+                    <div class="drinkcount">
+                        <span id="drinkInfo"></span>
+                    </div>
+
+                </div>
+                <div class="trucklocations"></div>
+            </div>
+
+
+            </main>
+            <footer>
+                <div class="info">
+                    <div>
+                        Bountiful Foods<br>
+                        1234 Tester Ave.<br>
+                        Tersterville, CA<br>
+                        info@bountifulfoods.com
+                    </div>
+
+                    <div class="social">
+                        <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram_logo.png" alt="Instagram" class="sociallogo"></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook_logo.png" alt="Facebook" class="sociallogo"></a>
+                        <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter_logo.png" alt="LinkedIn" class="sociallogo"></a>
+                    </div>
+                </div>
+                <div class="otherinfo">  
+                    &copy;<span id="copyright"></span>  Bountiful Foods&nbsp;&nbsp;|&nbsp;&nbsp;Berick Smith&nbsp;&nbsp;|&nbsp;&nbsp;Last modification: <span id="dateModified"></span>
+                </div> 
+            </footer>
+        
+            <script src="scripts/script.js"></script>
+            <script src="scripts/forecast.js"></script>
+            <script src="scripts/trucks.js"></script>
+            <script src="scripts/weather.js"></script>
+            <script src="scripts/localstorage.js"></script>
+    </body>
+</html>

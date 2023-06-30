@@ -1,0 +1,17 @@
+@media (min-width: 960px) {
+
+    nav ul#primaryNav {
+        display: flex;
+        justify-content: flex-start;
+      }
+   
+
+    nav ul li a {
+        border: none;
+      }
+    
+      nav ul li a {
+        padding: 10px 15px;
+      }
+
+}
