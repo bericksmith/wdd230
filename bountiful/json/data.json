@@ -1,13 +1,6 @@
 {
     "trucks": [
         {
-            "city": "Oceanside",
-            "address": "123 Main Street",
-            "phone": "360-555-1234",
-            "imageurl": "images/logo1.jpg",
-            "day": "Sunday"
-        },
-        {
             "city": "San Diego",
             "address": "456 Elm Avenue",
             "phone": "360-555-5678",

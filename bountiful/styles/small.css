@@ -10,7 +10,7 @@
 body {
   max-width: 1200px;
   min-width: 350px;
-  margin: 10px auto;
+  margin: 5px auto;
   font-size: 16px;
   background-color: #139447;
 }
@@ -387,8 +387,8 @@ footer a {
 .fruittruck{
   display: block;
   margin: auto;
-  width : "150px";
-  height : "150px";
+  width : 150px;
+  height : 150px;
   filter: drop-shadow(3px 3px 3px #444444);
   -webkit-filter: drop-shadow(3px 3px 3px #444444);
 }
