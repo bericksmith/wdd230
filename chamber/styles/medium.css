@@ -119,6 +119,10 @@
     justify-self: center;
   }
 
+  .weathercontainer {
+    display: block;
+  }
+
   .otherinfo {
     grid-column: 1/4;
     grid-row: 3/4;

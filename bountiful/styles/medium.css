@@ -1,3 +1,6 @@
 @media (min-width: 640px) {
-
+    .maincontainer {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+      }
 }

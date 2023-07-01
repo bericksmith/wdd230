@@ -64,7 +64,9 @@ p.xlarge {
   font-weight: bold;
 }
 
-
+.center {
+  text-align: center;
+}
 
 .logo {
   width: 180px;
@@ -254,7 +256,7 @@ header div nav ul li a:hover {
 
 .maincontainer {
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 
@@ -401,6 +403,8 @@ footer a {
   min-height: 150px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .forecast-card {
@@ -415,7 +419,11 @@ footer a {
   text-align: center;
 }
 
-.sociallogo{}
+.sociallogo{
+  margin: 5px 5px;
+  filter: drop-shadow(3px 3px 3px #444444);
+  -webkit-filter: drop-shadow(3px 3px 3px #444444);
+}
 
 .social{
   text-align: right;

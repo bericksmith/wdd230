@@ -33,10 +33,12 @@ fetch(forecastAPIurl)
       const dateElement = document.createElement('p');
       dateElement.textContent = getDayName(date);
       dateElement.classList.add('headline');
+      dateElement.classList.add('green');
       forecastCard.appendChild(dateElement);
 
       const temperature = document.createElement('p');
       temperature.textContent = Math.round(forecast.main.temp) + '°F';
+      temperature.classList.add('weather-temp');
       forecastCard.appendChild(temperature);
 
       //const description = document.createElement('p');
@@ -59,7 +61,7 @@ fetch(forecastAPIurl)
 
 function getDayName(dateString) {
   const date = new Date(dateString);
-  const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   return daysOfWeek[date.getDay()];
 }
 
