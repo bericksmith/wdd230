@@ -388,7 +388,7 @@ footer a {
 
 .fruittruck{
   display: block;
-  margin: auto;
+  margin: 0 auto;
   width : 150px;
   height : 150px;
   filter: drop-shadow(3px 3px 3px #444444);
