@@ -344,8 +344,8 @@ footer a {
 
 .info{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-bottom: 25px;
+  grid-template-columns: 1fr;
+  margin-bottom: 15px;
   width: 100%;
 }
 
@@ -419,7 +419,7 @@ footer a {
 }
 
 .social{
-  text-align: right;
+  text-align: center;
 }
 
 .companyinfo{

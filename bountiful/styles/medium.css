@@ -40,6 +40,17 @@
         width: 300px;
       }
 
+      .info{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 25px;
+        width: 100%;
+      }
+
+      .social{
+        text-align: right;
+      }
+
 
 
 }
