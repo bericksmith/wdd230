@@ -15,4 +15,19 @@
         grid-template-columns: 4fr 1fr;
       }
 
+      .hero-banner-sub {
+        display:block;
+        position: absolute;
+        top: 65px;
+        left: 25px;
+        padding: 0px;
+        margin: 0px;
+        font-size: 20px;
+      }
+
+      .call-to-action {
+        width: 40%;
+        padding: 25px;
+      }
+
 }
