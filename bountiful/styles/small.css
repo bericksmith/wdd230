@@ -5,6 +5,7 @@
 
 * {
   font-family: var(--paragraph-font);
+  box-sizing: border-box;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
   margin: 5px auto;
   font-size: 16px;
   background-color: #139447;
+  box-sizing: border-box;
 }
 main {
   background-color: #fff;
@@ -388,8 +390,6 @@ footer a {
   -webkit-filter: drop-shadow(3px 3px 3px #444444);
 }
 
-/* NEW */
-
 
 .forecast-grid{
   height: 100%;
@@ -450,4 +450,95 @@ footer a {
   cursor: pointer;
   
 }
+
+#output {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+
+.form-container form {
+  padding: 16px;
+  margin: 16px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+form label.top input {
+  display: block;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 12px;
+  color: #555;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: 15px 0;
+  color: #000;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #bc6c25;
+  color: #000;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 22px 22px;
+  margin: 20px 0 30px 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+form label.top input:required {
+  border-left: purple solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+form textarea {
+  display: block;
+  font-size: 18px;
+  border: solid 1px #999;
+  border-radius: 4px;
+  width: 100%;
+  padding: 15px;
+}
+fieldset {
+  border-radius: 4px;
+}
+
+legend {
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.membership {
+  accent-color: #bc6c25;
+}
+
+.forecast-grid {
+  display: none;
+}
+
+.thankyou {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 

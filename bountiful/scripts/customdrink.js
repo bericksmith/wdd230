@@ -13,11 +13,6 @@
             </form>
             `;
 
-
-
-              
-
-
         } else {
             document.getElementById("drinkInfo").innerHTML = "<p>Create your first custom drink!</p>";
         }
