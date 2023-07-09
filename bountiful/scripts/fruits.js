@@ -9,7 +9,7 @@ fetch("https://brotherblazzard.github.io/canvas-content/fruit.json")
   .then(function(jsonData) {
   jsonData.forEach(function(fruit) {
     let optionElement = document.createElement("option");
-    optionElement.value = fruit.id;
+    optionElement.value = fruit.name;
     optionElement.textContent = fruit.name;
   
     selectElement1.appendChild(optionElement.cloneNode(true));

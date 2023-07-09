@@ -1,6 +1,5 @@
 
     if (typeof(Storage) !== "undefined") {
-        localStorage.setItem("customDrink", 6);
       
         const customDrink = localStorage.getItem("customDrink");
               
@@ -14,7 +13,12 @@
             `;
 
         } else {
-            document.getElementById("drinkInfo").innerHTML = "<p>Create your first custom drink!</p>";
+            document.getElementById("drinkInfo").innerHTML = `            
+            <form action="fresh.html">
+            <button class="customdrinkbtn" type="submit">
+            You have created ${customDrink} Custom Drinks! Create one now?
+            </button>
+            </form>`;
         }
         
         } else {

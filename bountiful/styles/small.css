@@ -484,10 +484,11 @@ form label.top input {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-form label.sbs {
+form select {
   display: block;
-  padding: 15px 0;
+  padding: 10px 0;
   color: #000;
+  border-radius: 4px;
 }
 
 form input.submitBtn {
@@ -518,9 +519,6 @@ form textarea {
   width: 100%;
   padding: 15px;
 }
-fieldset {
-  border-radius: 4px;
-}
 
 legend {
   padding: 5px;
@@ -540,5 +538,17 @@ legend {
   display: grid;
   grid-template-columns: 1fr;
 }
+
+.nutrition {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+hr.thick {
+  border: 2px solid black;
+}
+
+
 
 
