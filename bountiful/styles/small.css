@@ -380,6 +380,8 @@ footer a {
   object-fit: cover;
   padding: 0px;
   margin: 0px;
+  width:100%;
+  height: 150px;
 }
 
 .main-hdr h1 {
@@ -487,7 +489,6 @@ footer a {
   margin-top: 20px;
   padding: 10px;
 }
-
 
 .form-container form {
   padding: 16px;

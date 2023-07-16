@@ -1,15 +1,6 @@
-if (localStorage.getItem("customDrink")) {
-  const customDrinkCount = parseInt(localStorage.getItem("customDrink"));
-  localStorage.setItem("customDrink", customDrinkCount + 1);
-} else {
-  localStorage.setItem("customDrink", 1);
-}
-
-
 // Function to handle form submission
 function handleSubmit(event) {
   event.preventDefault(); // Prevents the form from being submitted to a new page
-
 
   // Get input values
   const firstName = document.querySelector('input[name="firstName"]').value;
@@ -87,3 +78,13 @@ function handleSubmit(event) {
 // Add event listener to the form
 const form = document.getElementById('orderForm');
 form.addEventListener('submit', handleSubmit);
+
+
+function countDrink() {
+if (localStorage.getItem("customDrink")) {
+  const customDrinkCount = parseInt(localStorage.getItem("customDrink"));
+  localStorage.setItem("customDrink", customDrinkCount + 1);
+} else {
+  localStorage.setItem("customDrink", 1);
+}
+}
