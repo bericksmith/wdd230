@@ -42,11 +42,17 @@
             <img src="images/fresh_hdr.jpg" alt="Farm Fresh" loading="lazy">
             <h1>Farm Fresh and Organic</h1>
         </div>
-            <div class="lft-container"></div>
-            <div class="form-container">
+        <div class="fullwidth">
+            <p>At Bountiful Foods, we are passionate advocates for healthy living. In addition to our wide array of fresh fruits and produce, we proudly offer made-to-order fruit drinks and fruit bags bursting with natural goodness. Our aim is to empower you to make nutritious choices while savoring the flavors of our locally grown bounty.</p>
+        </div>
+        <div class="lft-container">
+            <img class="img yellow" src="images/customdrinks.jpg" alt="Custom Drinks" loading="lazy">
+            <div id="output"></div>
+        </div>
+        <div class="form-container">
                 <form id="orderForm" onsubmit="handleSubmit(event); countDrink();">
-                    <h1>Build Your Own Specialty Drink</h1>
-                    <p>Please fill out this form.</p>
+                    <h2>Build Your Own Specialty Drink</h2>
+                    <p>Please fill out this form to create a custom drink and see the nutritional information for your drink.</p>
                 
                     <hr>
                 
@@ -65,8 +71,7 @@
                     <input type="submit" class="submitBtn" value="Make Your Drink!">
                   </form>
                 
-                  <div id="output"></div>
-            </div>
+        </div>
 
           </main>
         
@@ -89,6 +94,7 @@
             </div>
             <div class="otherinfo">  
                 &copy;<span id="copyright"></span>  Bountiful Foods&nbsp;&nbsp;|&nbsp;&nbsp;Berick Smith&nbsp;&nbsp;|&nbsp;&nbsp;Last modified: <span id="dateModified"></span>
+                <p>Weather data courtesy of: <a class="small" href="http://OpenWeatherMap.org" target="_blank">OpenWeatherMap.org</a></p>
             </div> 
         </footer>
         

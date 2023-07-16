@@ -254,7 +254,9 @@ header div nav ul li a:hover {
   grid-template-columns: 1fr;
 }
 
-
+.lft-container {
+  padding: 20px;
+}
 
 /* Weather Section */
 
@@ -393,6 +395,9 @@ footer a {
   margin: 0px;
   font-size: 22px;
   text-shadow: 4px 4px 8px #000000;
+}
+.fullwidth{
+  grid-column: 1/2;
 }
 
 
@@ -573,7 +578,7 @@ legend {
   padding: 5px;
   border: 1px solid black;
   border-radius: 4px;
-  width: 300px;
+  width: 100%;
 }
 
 hr.thick {
@@ -582,6 +587,10 @@ hr.thick {
 
 .otherinfo{
   text-align: center;
+}
+
+.output{
+  margin: 0px;
 }
 
 

@@ -46,5 +46,9 @@
 
       .main-hdr h1 {
         font-size: 36px;
+      }
 
+      .fullwidth{
+          grid-column: 1/4;
+        }
 }
