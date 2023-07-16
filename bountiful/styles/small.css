@@ -181,6 +181,10 @@ header div nav ul li{
   color:#000
 }
 
+.aboutus {
+  padding: 20px;
+}
+
 header div nav ul li a {
   display: block;
   padding: 12px 2vw;
@@ -593,6 +597,16 @@ hr.thick {
   margin: 0px;
 }
 
+.map {
+  float: right;
+  margin:20px;
+  border: 1px solid #000;
+}
+
+.mapframe {
+width: 300px; 
+height: 300px;
+}
 
 
 
