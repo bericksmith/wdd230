@@ -361,6 +361,38 @@ footer a {
   padding: 10px 10px;
 }
 
+.fresh-main {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: start;
+}
+
+.main-hdr{
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  grid-column: 1/2;
+  min-height: 150px;
+}
+
+.main-hdr img {
+  position: relative;
+  object-fit: cover;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-hdr h1 {
+  position: absolute;
+  color: #fff;
+  bottom: 20px;
+  left: 20px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 22px;
+  text-shadow: 4px 4px 8px #000000;
+}
+
 
 /* Trucks */
 
@@ -454,7 +486,6 @@ footer a {
 #output {
   margin-top: 20px;
   padding: 10px;
-  border: 1px solid #ccc;
 }
 
 
@@ -530,9 +561,7 @@ legend {
   accent-color: #bc6c25;
 }
 
-.forecast-grid {
-  display: none;
-}
+
 
 .thankyou {
   display: grid;
@@ -543,6 +572,7 @@ legend {
   padding: 5px;
   border: 1px solid black;
   border-radius: 4px;
+  width: 300px;
 }
 
 hr.thick {

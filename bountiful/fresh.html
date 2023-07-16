@@ -37,10 +37,12 @@
         </div>
     </header>
 
-  <main>
-        <br>
-            <h1>Fresh!</h1>
-
+  <main class="fresh-main">
+        <div class="main-hdr">
+            <img src="images/fresh_hdr.jpg" alt="Farm Fresh" loading="lazy">
+            <h1>Farm Fresh and Organic</h1>
+        </div>
+            <div class="lft-container"></div>
             <div class="form-container">
                 <form id="orderForm" onsubmit="handleSubmit(event)">
                     <h1>Build Your Own Specialty Drink</h1>
@@ -64,6 +66,7 @@
                   </form>
                 
                   <div id="output"></div>
+            </div>
 
           </main>
         
@@ -91,7 +94,7 @@
         
         <script src="scripts/script.js"></script>
         <script src="scripts/weather.js"></script>
-        <script src="scripts/fruits.js"></script>
-        <script src="scripts/drinkinfo.js"></script>
+        <script src="scripts/getfruits.js"></script>
+        <script src="scripts/createdrink.js"></script>
 </body>
 </html>

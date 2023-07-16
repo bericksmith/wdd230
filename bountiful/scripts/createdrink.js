@@ -42,7 +42,7 @@ function handleSubmit(event) {
 
       // Create output HTML
       const output = `
-        <h2>Summary</h2>
+        <h2>Custom Drink Summary</h2>
         <p><strong>First Name:</strong> ${firstName}<br>
         <strong>Email:</strong> ${email}<br>
         <strong>Phone Number:</strong> ${phone}<br>
@@ -69,24 +69,17 @@ function handleSubmit(event) {
       const outputElement = document.getElementById('output');
       outputElement.innerHTML = output;
       
-      newDrink()
-      
+      if (localStorage.getItem("customDrink")) {
+        const customDrinkCount = parseInt(localStorage.getItem("customDrink"));
+        localStorage.setItem("customDrink", customDrinkCount + 1);
+      } else {
+        localStorage.setItem("customDrink", 1);
+      }
+
     })
     .catch(function(error) {
       console.log("Error fetching JSON data:", error);
     });
-}
-
-function newDrink() {
-      // Check if "customDrink" exists in local storage
-      if (localStorage.getItem("customDrink")) {
-        // Increment the value by 1
-        const customDrinkCount = parseInt(localStorage.getItem("customDrink")) + 1;
-        localStorage.setItem("customDrink", customDrinkCount);
-      } else {
-        // Set the value to 1 if it doesn't exist
-        localStorage.setItem("customDrink", 1);
-      }
 }
 
 // Add event listener to the form

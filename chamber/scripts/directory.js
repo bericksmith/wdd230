@@ -24,9 +24,9 @@ fetch(requestURL)
 
     h2.textContent = `${business.name}`;
   
-    p1.innerHTML = business.address + "<br>Vancouver, WA 98661";
+    p1.innerHTML = business.address + "<br>Vancouver, WA 98661<br>" + business.phone;
 
-    p2.textContent = business.phone;
+    p2.textContent = business.membership;
 
     a.textContent = business.website;
     a.setAttribute('href', '#'); 

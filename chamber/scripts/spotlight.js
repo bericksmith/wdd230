@@ -49,7 +49,7 @@ fetch(requestURL)
 
     hr.style.margin = "2px";
 
-    pSpotinfo.innerHTML += business.phone + " | ";
+    pSpotinfo.innerHTML += business.phone + " | " + business.membership + " | ";
     pSpotinfo.classList.add('spotinfo');
 
     a.textContent = "website";
