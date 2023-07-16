@@ -29,7 +29,7 @@ function displayTruckData(trucks) {
   // Create the heading element
   let heading = document.createElement("p");
   heading.classList.add("large");
-  heading.textContent = "Daily Produce & Juice Truck Locations";
+  heading.innerHTML = "Daily Produce & Juice Truck Locations<br>** Closed Sundays **";
   output.appendChild(heading);
 
   // Loop through each truck
