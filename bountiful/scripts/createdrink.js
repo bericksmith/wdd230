@@ -1,3 +1,11 @@
+if (localStorage.getItem("customDrink")) {
+  const customDrinkCount = parseInt(localStorage.getItem("customDrink"));
+  localStorage.setItem("customDrink", customDrinkCount + 1);
+} else {
+  localStorage.setItem("customDrink", 1);
+}
+
+
 // Function to handle form submission
 function handleSubmit(event) {
   event.preventDefault(); // Prevents the form from being submitted to a new page
@@ -69,12 +77,6 @@ function handleSubmit(event) {
       const outputElement = document.getElementById('output');
       outputElement.innerHTML = output;
       
-      if (localStorage.getItem("customDrink")) {
-        const customDrinkCount = parseInt(localStorage.getItem("customDrink"));
-        localStorage.setItem("customDrink", customDrinkCount + 1);
-      } else {
-        localStorage.setItem("customDrink", 1);
-      }
 
     })
     .catch(function(error) {
