@@ -25,7 +25,6 @@ function displayWeatherData(data) {
   const weatherIcon = data.weather[0].icon;
   const windspeed = data.wind.speed;
   const description = data.weather[0].description;
-  //capitalize each discription word
   const words = description.split(" ");
   const capitalizedWords = words.map(function(word) {
     return word.charAt(0).toUpperCase() + word.slice(1);

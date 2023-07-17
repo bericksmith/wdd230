@@ -1,8 +1,8 @@
-// Function to handle form submission
-function handleSubmit(event) {
-  event.preventDefault(); // Prevents the form from being submitted to a new page
 
-  // Get input values
+function handleSubmit(event) {
+  event.preventDefault();
+
+  // input values
   const firstName = document.querySelector('input[name="firstName"]').value;
   const email = document.querySelector('input[name="email"]').value;
   const phone = document.querySelector('input[name="phone"]').value;
@@ -11,11 +11,11 @@ function handleSubmit(event) {
   const fruits3 = document.getElementById('fruits3').value;
   const description = document.querySelector('textarea[name="description"]').value;
   
-  // Get current date and time
+  // current date and time
   const currentDate = new Date();
   const formattedDate = currentDate.toLocaleString();
 
-  // Calculate total nutrition values based on selected fruits
+  // nutrition values of selected fruits
   const selectedFruits = [fruits1, fruits2, fruits3];
   let totalCarbohydrates = 0;
   let totalProtein = 0;
@@ -39,7 +39,7 @@ function handleSubmit(event) {
         }
       });
 
-      // Create output HTML
+      // Output HTML
       const output = `
         <h2>Custom Drink Summary</h2>
         <p><strong>First Name:</strong> ${firstName}<br>
@@ -64,7 +64,7 @@ function handleSubmit(event) {
       `;
 
 
-      // Display the output
+      // to display
       const outputElement = document.getElementById('output');
       outputElement.innerHTML = output;
       
@@ -75,7 +75,7 @@ function handleSubmit(event) {
     });
 }
 
-// Add event listener to the form
+// Add listener
 const form = document.getElementById('orderForm');
 form.addEventListener('submit', handleSubmit);
 

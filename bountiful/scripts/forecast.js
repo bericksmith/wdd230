@@ -41,10 +41,6 @@ fetch(forecastAPIurl)
       temperature.classList.add('weather-temp');
       forecastCard.appendChild(temperature);
 
-      //const description = document.createElement('p');
-      //description.textContent = forecast.weather[0].description;
-      //forecastCard.appendChild(description);
-
       const weatherIconSpan = document.createElement('span');
       let weatherIcon = forecast.weather[0].icon;
       weatherIconSpan.innerHTML = `<img class="weather-forcast-img" alt="${temperature.textContent}" src="https://openweathermap.org/img/w/${weatherIcon}.png">`;

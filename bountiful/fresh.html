@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="Bountiful Foods">
-        <meta property="og:image" content="https://bericksmith.github.io/wdd230/bountiful/images/bountiful.jpg">
-        <meta property="og:url" content="https://bericksmith.github.io/wdd230/bountiful">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Berick Smith">
-        <meta name="description" content="">
-        <title>Bountiful Foods</title>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="icon" href="favicon.ico">
-        <link type="text/css" rel="stylesheet" href="styles/small.css">
-        <link type="text/css" rel="stylesheet" href="styles/medium.css">
-        <link type="text/css" rel="stylesheet" href="styles/large.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bountiful Foods">
+    <meta property="og:url" content="https://bericksmith.github.io/wdd230/bountiful">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Berick Smith">
+    <meta name="description" content="Bountiful foods provides fresh, organic fruits and vegtables. Create your own custom beverages.">
+    <title>Bountiful Foods - Fresh, Organic fruits and vegtables used to create custom beverages.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" href="favicon.ico">
+    <link type="text/css" rel="stylesheet" href="styles/small.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
+    <link type="text/css" rel="stylesheet" href="styles/large.css">
+</head>
+
 <body>
     <header>
         <div id="logo">
@@ -27,80 +28,92 @@
             <nav>
                 <ul id="primaryNav">
                     <li class="home bold"><a href="index.html">Home</a></li>
-                    <li class="fresh bold"><a href="fresh.html">Fresh</a></li>
+                    <li class="fresh bold"><a href="#">Fresh</a></li>
                     <li class="about bold"><a href="about.html">About Us</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="weather">                    
+        <div class="weather">
             <div id="weather-info"></div>
         </div>
     </header>
 
-  <main class="fresh-main">
+    <main class="fresh-main">
         <div class="main-hdr">
             <img src="images/fresh_hdr.jpg" alt="Farm Fresh" loading="lazy">
             <h1>Farm Fresh and Organic</h1>
         </div>
         <div class="fullwidth">
-            <p>At Bountiful Foods, we are passionate advocates for healthy living. In addition to our wide array of fresh fruits and produce, we proudly offer made-to-order fruit drinks and fruit bags bursting with natural goodness. Our aim is to empower you to make nutritious choices while savoring the flavors of our locally grown bounty.</p>
+            <p>At Bountiful Foods, we are passionate advocates for healthy living. In addition to our wide array of
+                fresh fruits and produce, we proudly offer made-to-order fruit drinks and fruit bags bursting with
+                natural goodness. Our aim is to empower you to make nutritious choices while savoring the flavors of our
+                locally grown bounty.</p>
         </div>
         <div class="lft-container">
             <img class="img yellow" src="images/customdrinks.jpg" alt="Custom Drinks" loading="lazy">
             <div id="output"></div>
         </div>
         <div class="form-container">
-                <form id="orderForm" onsubmit="handleSubmit(event); countDrink();">
-                    <h2>Build Your Own Specialty Drink</h2>
-                    <p>Please fill out this form to create a custom drink and see the nutritional information for your drink.</p>
-                
-                    <hr>
-                
-                    <label class="top">First name* <input type="text" name="firstName" required></label>
-                    <label class="top">Email* <input type="email" placeholder="someone@gmail.com" name="email" required></label>
-                    <label class="top">Cell Phone Number*<input type="tel" name="phone" placeholder="1235551234" required></label>
-                    <label class="top" for="fruits1">Select a Fruit: <select id="fruits1"></select></label>
-                    <label class="top" for="fruits2">Select a Fruit: <select id="fruits2"></select></label>
-                    <label class="top" for="fruits3">Select a Fruit: <select id="fruits3"></select></label>
-                
-                    <br>
-                
-                    <label class="top">Special Instructions: <br><textarea name="description" rows="4"></textarea></label>
-                    <input type="hidden" id="formDateTime" name="formDateTime" value="">
-                
-                    <input type="submit" class="submitBtn" value="Make Your Drink!">
-                  </form>
-                
+            <form id="orderForm" onsubmit="handleSubmit(event); countDrink();">
+                <h2>Build Your Own Specialty Drink</h2>
+                <p>Please fill out this form to create a custom drink and see the nutritional information for your
+                    drink.</p>
+
+                <hr>
+
+                <label class="top">First name* <input type="text" name="firstName" required></label>
+                <label class="top">Email* <input type="email" placeholder="someone@gmail.com" name="email"
+                        required></label>
+                <label class="top">Cell Phone Number*<input type="tel" name="phone" placeholder="1235551234"
+                        required></label>
+                <label class="top" for="fruits1">Select a Fruit: <select id="fruits1"></select></label>
+                <label class="top" for="fruits2">Select a Fruit: <select id="fruits2"></select></label>
+                <label class="top" for="fruits3">Select a Fruit: <select id="fruits3"></select></label>
+
+                <br>
+
+                <label class="top">Special Instructions: <br><textarea name="description" rows="4"></textarea></label>
+                <input type="hidden" id="formDateTime" name="formDateTime" value="">
+
+                <input type="submit" class="submitBtn" value="Make Your Drink!">
+            </form>
+
         </div>
 
-          </main>
-        
-          <footer>
-            <div class="info">
-                <div>
-        
-                </div>
-                <div class="companyinfo">
-                    <p class="medium">Bountiful Foods<br>
+    </main>
+
+    <footer>
+        <div class="info">
+            <div>
+
+            </div>
+            <div class="companyinfo">
+                <p class="medium">Bountiful Foods<br>
                     1234 Tester Ave. Carlsbad, CA<br>
                     info@bountifulfoods.com</p>
-                </div>
-        
-                <div class="social">
-                    <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram_logo.png" alt="Instagram" class="sociallogo"></a>
-                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook_logo.png" alt="Facebook" class="sociallogo"></a>
-                    <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter_logo.png" alt="LinkedIn" class="sociallogo"></a>
-                </div>
             </div>
-            <div class="otherinfo">  
-                &copy;<span id="copyright"></span>  Bountiful Foods&nbsp;&nbsp;|&nbsp;&nbsp;Berick Smith&nbsp;&nbsp;|&nbsp;&nbsp;Last modified: <span id="dateModified"></span>
-                <p>Weather data courtesy of: <a class="small" href="http://OpenWeatherMap.org" target="_blank">OpenWeatherMap.org</a></p>
-            </div> 
-        </footer>
-        
-        <script src="scripts/script.js"></script>
-        <script src="scripts/weather.js"></script>
-        <script src="scripts/getfruits.js"></script>
-        <script src="scripts/createdrink.js"></script>
+
+            <div class="social">
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram_logo.png"
+                        alt="Instagram" class="sociallogo"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook_logo.png" alt="Facebook"
+                        class="sociallogo"></a>
+                <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter_logo.png" alt="LinkedIn"
+                        class="sociallogo"></a>
+            </div>
+        </div>
+        <div class="otherinfo">
+            &copy;<span id="copyright"></span> Bountiful Foods&nbsp;&nbsp;|&nbsp;&nbsp;Berick
+            Smith&nbsp;&nbsp;|&nbsp;&nbsp;Last modified: <span id="dateModified"></span>
+            <p>Weather data courtesy of: <a class="small" href="http://OpenWeatherMap.org"
+                    target="_blank">OpenWeatherMap.org</a></p>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/getfruits.js"></script>
+    <script src="scripts/createdrink.js"></script>
 </body>
+
 </html>
