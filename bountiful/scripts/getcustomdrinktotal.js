@@ -16,7 +16,7 @@
             document.getElementById("drinkInfo").innerHTML = `            
             <form action="fresh.html">
             <button class="customdrinkbtn" type="submit">
-            You have created ${myCustomDrink} Custom Drinks! Create one now?
+            You have created 0 Custom Drinks! Create one now?
             </button>
             </form>`;
         }
