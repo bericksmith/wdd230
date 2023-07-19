@@ -1,8 +1,6 @@
-
 function handleSubmit(event) {
   event.preventDefault();
 
-  // input values
   const firstName = document.querySelector('input[name="firstName"]').value;
   const email = document.querySelector('input[name="email"]').value;
   const phone = document.querySelector('input[name="phone"]').value;
@@ -11,11 +9,9 @@ function handleSubmit(event) {
   const fruits3 = document.getElementById('fruits3').value;
   const description = document.querySelector('textarea[name="description"]').value;
   
-  // current date and time
   const currentDate = new Date();
   const formattedDate = currentDate.toLocaleString();
 
-  // nutrition values of selected fruits
   const selectedFruits = [fruits1, fruits2, fruits3];
   let totalCarbohydrates = 0;
   let totalProtein = 0;
@@ -63,8 +59,6 @@ function handleSubmit(event) {
         </div>
       `;
 
-
-      // to display
       const outputElement = document.getElementById('output');
       outputElement.innerHTML = output;
       
@@ -75,7 +69,6 @@ function handleSubmit(event) {
     });
 }
 
-// Add listener
 const form = document.getElementById('orderForm');
 form.addEventListener('submit', handleSubmit);
 
