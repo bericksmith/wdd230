@@ -57,7 +57,7 @@ fetch(forecastAPIurl)
 
 function getDayName(dateString) {
   const date = new Date(dateString);
-  const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   return daysOfWeek[date.getDay()];
 }
 
