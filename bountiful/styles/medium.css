@@ -1,75 +1,73 @@
 @media (min-width: 640px) {
-    
   header {
     grid-template-columns: 250px 1fr 1fr;
   }
 
   .maincontainer {
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-      }
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
 
-      .weather {
-        justify-self: end;
-      }
+  .weather {
+    justify-self: end;
+  }
 
-      #logo {
-        justify-self: start;
-      }
+  #logo {
+    justify-self: start;
+  }
 
-      .hero-banner {
-        position: absolute;
-        color: #000;
-        top: 25px;
-        left: 25px;
-        padding: 0px;
-        margin: 0px;
-        font-size: 32px;
-      }
+  .hero-banner {
+    position: absolute;
+    color: #000;
+    top: 25px;
+    left: 25px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 32px;
+  }
 
-      .call-to-action {
-        position: absolute;
-        bottom: 30px;
-        right: 30px;
-        width: 50%;
-        padding: 15px;
-        box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
-      }
+  .call-to-action {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 50%;
+    padding: 15px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  }
 
-      .img {
-        width: 300px;
-      }
+  .img {
+    width: 300px;
+  }
 
-      .info{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-bottom: 25px;
-        width: 100%;
-      }
+  .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 25px;
+    width: 100%;
+  }
 
-      .social{
-        text-align: right;
-      }
+  .social {
+    text-align: right;
+  }
 
-      .fresh-main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-      }
+  .fresh-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-      .main-hdr{
-        grid-column: 1/3;
-      }
+  .main-hdr {
+    grid-column: 1/3;
+  }
 
-      .main-hdr h1 {
-        font-size: 30px;
+  .main-hdr h1 {
+    font-size: 30px;
+  }
+  .fullwidth {
+    grid-column: 1/3;
+  }
 
-      }
-      .fullwidth{
-        grid-column: 1/3;
-      }
-
-      .mapframe {
-        width: 450px; 
-        height: 450px;
-        }
+  .mapframe {
+    width: 450px;
+    height: 450px;
+  }
 }
